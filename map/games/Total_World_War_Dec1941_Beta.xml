@@ -17900,6 +17900,16 @@
       <option name="bonusType" value="ATBonus"/>
       <option name="impArtTech" value="false"/>
     </attachment>
+    <attachment name="supportAttachmentAirtrangerman3" attachTo="germanAirTransport" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="germanAlpineInfantry"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="-2"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="ATBonus"/>
+      <option name="impArtTech" value="false"/>
+    </attachment>
     <!-- Russia support -->
     <attachment name="supportAttachmentArtilleryrussian" attachTo="russianArtillery" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="russianInfantry:russianMarine:russianCombatEngineer:russianAlpineInfantry:russianParatrooper"/>
@@ -18105,6 +18115,16 @@
       <option name="side" value="offence"/>
       <option name="dice" value="strength"/>
       <option name="bonus" value="2"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="ATBonus"/>
+      <option name="impArtTech" value="false"/>
+    </attachment>
+    <attachment name="supportAttachmentAirtranrussian3" attachTo="russianAirTransport" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="russianAlpineInfantry"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="-2"/>
       <option name="number" value="1"/>
       <option name="bonusType" value="ATBonus"/>
       <option name="impArtTech" value="false"/>
@@ -18358,6 +18378,16 @@
       <option name="side" value="offence"/>
       <option name="dice" value="strength"/>
       <option name="bonus" value="2"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="ATBonus"/>
+      <option name="impArtTech" value="false"/>
+    </attachment>
+    <attachment name="supportAttachmentAirtranjapanese3" attachTo="japaneseAirTransport" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="japaneseAlpineInfantry"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="-2"/>
       <option name="number" value="1"/>
       <option name="bonusType" value="ATBonus"/>
       <option name="impArtTech" value="false"/>
@@ -18703,6 +18733,16 @@
       <option name="bonusType" value="ATBonus"/>
       <option name="impArtTech" value="false"/>
     </attachment>
+    <attachment name="supportAttachmentAirtranbritish3" attachTo="britishAirTransport" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="britishAlpineInfantry"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="-2"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="ATBonus"/>
+      <option name="impArtTech" value="false"/>
+    </attachment>
     <!-- Italy support -->
     <attachment name="supportAttachmentArtilleryitalian" attachTo="italianArtillery" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="italianInfantry:italianMarine:italianCombatEngineer:italianAlpineInfantry:italianParatrooper"/>
@@ -18908,6 +18948,16 @@
       <option name="side" value="offence"/>
       <option name="dice" value="strength"/>
       <option name="bonus" value="2"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="ATBonus"/>
+      <option name="impArtTech" value="false"/>
+    </attachment>
+    <attachment name="supportAttachmentAirtranitalian3" attachTo="italianAirTransport" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="italianAlpineInfantry"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="-2"/>
       <option name="number" value="1"/>
       <option name="bonusType" value="ATBonus"/>
       <option name="impArtTech" value="false"/>
@@ -19161,6 +19211,16 @@
       <option name="side" value="offence"/>
       <option name="dice" value="strength"/>
       <option name="bonus" value="2"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="ATBonus"/>
+      <option name="impArtTech" value="false"/>
+    </attachment>
+    <attachment name="supportAttachmentAirtranamerican3" attachTo="americanAirTransport" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="americanAlpineInfantry"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="-2"/>
       <option name="number" value="1"/>
       <option name="bonusType" value="ATBonus"/>
       <option name="impArtTech" value="false"/>
@@ -21933,6 +21993,42 @@
       <option name="unitProperty" value="isLandTransport" count="false"/>
       <option name="when" value="after:germanyNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentgermanMecht3" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="germanMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:germanyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentgermanMecht4" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="germanMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:germanyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentgermanTank1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="germanTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:germanyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentgermanTank2" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="germanTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:germanyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentgermanHvyTank1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="germanHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:germanyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentgermanHvyTank2" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="germanHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:germanyCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentgermanAirtraninfra1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="germanAirTransport"/>
@@ -21961,6 +22057,42 @@
       <option name="unitProperty" value="isLandTransport" count="false"/>
       <option name="when" value="after:russiaNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentrussianMecht3" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="russianMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:russiaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentrussianMecht4" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="russianMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:russiaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentrussianTank1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="russianTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:russiaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentrussianTank2" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="russianTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:russiaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentrussianHvyTank1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="russianHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:russiaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentrussianHvyTank2" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="russianHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:russiaCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentrussianAirtraninfra1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="russianAirTransport"/>
@@ -21988,6 +22120,42 @@
       <option name="unitType" value="japaneseMech.Infantry"/>
       <option name="unitProperty" value="isLandTransport" count="false"/>
       <option name="when" value="after:japanNonCombatMove"/>
+    </attachment>	  
+    <attachment name="triggerAttachmentjapaneseMecht3" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="japaneseMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:japanCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentjapaneseMecht4" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="japaneseMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:japanCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentjapaneseTank1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="japaneseTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:japanCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentjapaneseTank2" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="japaneseTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:japanCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentjapaneseHvyTank1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="japaneseHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:japanCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentjapaneseHvyTank2" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="japaneseHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:japanCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAirtraninfra1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
@@ -22017,6 +22185,30 @@
       <option name="unitProperty" value="isLandTransport" count="false"/>
       <option name="when" value="after:chinaNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentchineseMecht3" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="chineseMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:chinaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentchineseMecht4" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="chineseMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:chinaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentchineseTank1" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="chineseTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:chinaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentchineseTank2" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="chineseTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:chinaCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentitalianMecht1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="italianMech.Infantry"/>
@@ -22028,6 +22220,42 @@
       <option name="unitType" value="italianMech.Infantry"/>
       <option name="unitProperty" value="isLandTransport" count="false"/>
       <option name="when" value="after:italyNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianMecht3" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="italianMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:italyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianMecht4" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="italianMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:italyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianTank1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="italianTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:italyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianTank2" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="italianTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:italyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianHvyTank1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="italianHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:italyCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianHvyTank2" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="italianHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:italyCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAirtraninfra1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
@@ -22057,6 +22285,42 @@
       <option name="unitProperty" value="isLandTransport" count="false"/>
       <option name="when" value="after:usaNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentamericanMecht3" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="americanMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:usaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentamericanMecht4" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="americanMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:usaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentamericanTank1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="americanTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:usaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentamericanTank2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="americanTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:usaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentamericanHvyTank1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="americanHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:usaCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentamericanHvyTank2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="americanHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:usaCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentamericanAirtraninfra1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="americanAirTransport"/>
@@ -22084,6 +22348,42 @@
       <option name="unitType" value="britishMech.Infantry"/>
       <option name="unitProperty" value="isLandTransport" count="false"/>
       <option name="when" value="after:britainNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishMecht3" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="britishMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:britainCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishMecht4" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="britishMech.Infantry"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:britainCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishTank1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="britishTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:britainCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishTank2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="britishTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:britainCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishHvyTank1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="britishHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="false"/>
+      <option name="when" value="before:britainCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishHvyTank2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentDummyCondition"/>
+      <option name="unitType" value="britishHeavyTank"/>
+      <option name="unitProperty" value="isLandTransportable" count="true"/>
+      <option name="when" value="after:britainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAirtraninfra1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
@@ -22721,12 +23021,12 @@
       <option name="when" value="before:russiaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLrTNA" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLrTRA"/>
+      <option name="conditions" value="conditionAttachmentLLrTNA"/>
       <option name="placement" value="Altay:Train"/>
       <option name="when" value="before:russiaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLrTNA" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLrTRA"/>
+      <option name="conditions" value="conditionAttachmentLLrTNA"/>
       <option name="removeUnits" value="Altay:Train"/>
       <option name="when" value="before:russiaEndTurn"/>
     </attachment>
@@ -24560,12 +24860,12 @@
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNA" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRA"/>
+      <option name="conditions" value="conditionAttachmentLLbTNA"/>
       <option name="placement" value="Archangel:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNA" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRA"/>
+      <option name="conditions" value="conditionAttachmentLLbTNA"/>
       <option name="removeUnits" value="Archangel:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
@@ -24690,12 +24990,12 @@
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNI" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRI"/>
+      <option name="conditions" value="conditionAttachmentLLbTNI"/>
       <option name="placement" value="Eastern Iran:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNI" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRI"/>
+      <option name="conditions" value="conditionAttachmentLLbTNI"/>
       <option name="removeUnits" value="Eastern Iran:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
@@ -24760,12 +25060,12 @@
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNM" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRM"/>
+      <option name="conditions" value="conditionAttachmentLLbTNM"/>
       <option name="placement" value="Murmansk:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNM" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRM"/>
+      <option name="conditions" value="conditionAttachmentLLbTNM"/>
       <option name="removeUnits" value="Murmansk:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
@@ -24890,12 +25190,12 @@
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLaTNM" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLaTRM"/>
+      <option name="conditions" value="conditionAttachmentLLaTNM"/>
       <option name="placement" value="Murmansk:Train"/>
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLaTNM" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLaTRM"/>
+      <option name="conditions" value="conditionAttachmentLLaTNM"/>
       <option name="removeUnits" value="Murmansk:Train"/>
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
@@ -24960,12 +25260,12 @@
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLaTNA" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLaTRA"/>
+      <option name="conditions" value="conditionAttachmentLLaTNA"/>
       <option name="placement" value="Archangel:Train"/>
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLaTNA" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLaTRA"/>
+      <option name="conditions" value="conditionAttachmentLLaTNA"/>
       <option name="removeUnits" value="Archangel:Train"/>
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
@@ -25030,12 +25330,12 @@
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLaTNI" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLaTRI"/>
+      <option name="conditions" value="conditionAttachmentLLaTNI"/>
       <option name="placement" value="Eastern Iran:Train"/>
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLaTNI" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLaTRI"/>
+      <option name="conditions" value="conditionAttachmentLLaTNI"/>
       <option name="removeUnits" value="Eastern Iran:Train"/>
       <option name="when" value="before:usaEndTurn"/>
     </attachment>
@@ -25346,6 +25646,17 @@
     <attachment name="triggerAttachmentgermanImpSW7" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedSpecialWarfare"/>
       <option name="frontier" value="germanMinorInfProduction"/>
+      <option name="uses" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentgermanImpSW8" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentgermanImprovedSpecialWarfare"/>
+      <option name="support" value="supportAttachmentAirtrangerman3"/>
+      <option name="uses" value="1"/>
+    </attachment>	
+	<attachment name="triggerAttachmentgermanImpSW9" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentgermanImprovedSpecialWarfare"/>
+      <option name="unitType" value="germanAlpineInfantry"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanASW1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -26093,6 +26404,18 @@
       <option name="unitProperty" value="transportCapacity" count="5"/>
       <option name="when" value="after:germanyNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentgermanAL6" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentgermanAdvancedLogistics"/>
+      <option name="unitType" value="germanInfantry:germanMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
+      <option name="when" value="before:germanyNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentgermanAL7" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentgermanAdvancedLogistics"/>
+      <option name="unitType" value="germanInfantry:germanMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="false"/>
+      <option name="when" value="after:germanyNonCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentgermanIDS1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedDefensiveStructures"/>
       <option name="unitType" value="germanEntrenchment"/>
@@ -26395,6 +26718,17 @@
     <attachment name="triggerAttachmentbritishImpSW7" attachTo="India" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedSpecialWarfare"/>
       <option name="frontier" value="britishMinorInfProduction"/>
+      <option name="uses" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishImpSW8" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentbritishImprovedSpecialWarfare"/>
+      <option name="support" value="supportAttachmentAirtranbritish3"/>
+      <option name="uses" value="1"/>
+    </attachment>	
+	<attachment name="triggerAttachmentbritishImpSW9" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentbritishImprovedSpecialWarfare"/>
+      <option name="unitType" value="britishAlpineInfantry"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishASW1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -27184,6 +27518,18 @@
       <option name="unitProperty" value="transportCapacity" count="5"/>
       <option name="when" value="after:britainNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentbritishAL6" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentbritishAdvancedLogistics"/>
+      <option name="unitType" value="britishInfantry:britishMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
+      <option name="when" value="before:britainNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentbritishAL7" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentbritishAdvancedLogistics"/>
+      <option name="unitType" value="britishInfantry:britishMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="false"/>
+      <option name="when" value="after:britainNonCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentbritishIDS1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedDefensiveStructures"/>
       <option name="unitType" value="britishEntrenchment"/>
@@ -27599,6 +27945,17 @@
     <attachment name="triggerAttachmentjapaneseImpSW6" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedSpecialWarfare"/>
       <option name="frontier" value="japaneseMinorInfProduction"/>
+      <option name="uses" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentjapaneseImpSW8" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentjapaneseImprovedSpecialWarfare"/>
+      <option name="support" value="supportAttachmentAirtranjapanese3"/>
+      <option name="uses" value="1"/>
+    </attachment>	
+	<attachment name="triggerAttachmentjapaneseImpSW9" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentjapaneseImprovedSpecialWarfare"/>
+      <option name="unitType" value="japaneseAlpineInfantry"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseASW1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28346,6 +28703,18 @@
       <option name="unitProperty" value="transportCapacity" count="5"/>
       <option name="when" value="after:japanNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentjapaneseAL6" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentjapaneseAdvancedLogistics"/>
+      <option name="unitType" value="japaneseInfantry:japaneseMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
+      <option name="when" value="before:japanNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentjapaneseAL7" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentjapaneseAdvancedLogistics"/>
+      <option name="unitType" value="japaneseInfantry:japaneseMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="false"/>
+      <option name="when" value="after:japanNonCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentjapaneseIDS1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedDefensiveStructures"/>
       <option name="unitType" value="japaneseEntrenchment"/>
@@ -28623,6 +28992,17 @@
       <option name="trigger" value="conditionAttachmentrussianImprovedSpecialWarfare"/>
       <option name="unitType" value="russianAlpineInfantry:russianMarine:russianCombatEngineer"/>
       <option name="unitProperty" value="attack" count="3"/>
+      <option name="uses" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentrussianImpSW8" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentrussianImprovedSpecialWarfare"/>
+      <option name="support" value="supportAttachmentAirtranrussian3"/>
+      <option name="uses" value="1"/>
+    </attachment>	
+	<attachment name="triggerAttachmentrussianImpSW9" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentrussianImprovedSpecialWarfare"/>
+      <option name="unitType" value="russianAlpineInfantry"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianASW1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29407,6 +29787,18 @@
       <option name="unitProperty" value="transportCapacity" count="5"/>
       <option name="when" value="after:russiaNonCombatMove"/>
     </attachment>
+    <attachment name="triggerAttachmentrussianAL6" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentrussianAdvancedLogistics"/>
+      <option name="unitType" value="russianInfantry:russianMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
+      <option name="when" value="before:russiaNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentrussianAL7" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentrussianAdvancedLogistics"/>
+      <option name="unitType" value="russianInfantry:russianMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="false"/>
+      <option name="when" value="after:russiaNonCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentrussianIDS1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedDefensiveStructures"/>
       <option name="unitType" value="russianEntrenchment"/>
@@ -29664,6 +30056,17 @@
       <option name="trigger" value="conditionAttachmentamericanImprovedSpecialWarfare"/>
       <option name="unitType" value="americanAlpineInfantry:americanMarine:americanCombatEngineer"/>
       <option name="unitProperty" value="attack" count="3"/>
+      <option name="uses" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentamericanImpSW8" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentamericanImprovedSpecialWarfare"/>
+      <option name="support" value="supportAttachmentAirtranamerican3"/>
+      <option name="uses" value="1"/>
+    </attachment>	
+	<attachment name="triggerAttachmentamericanImpSW9" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentamericanImprovedSpecialWarfare"/>
+      <option name="unitType" value="americanAlpineInfantry"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanASW1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30448,6 +30851,18 @@
       <option name="unitProperty" value="transportCapacity" count="5"/>
       <option name="when" value="after:usaNonCombatMove"/>	  
     </attachment>
+    <attachment name="triggerAttachmentamericanAL6" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentamericanAdvancedLogistics"/>
+      <option name="unitType" value="americanInfantry:americanMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
+      <option name="when" value="before:usaNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentamericanAL7" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentamericanAdvancedLogistics"/>
+      <option name="unitType" value="americanInfantry:americanMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="false"/>
+      <option name="when" value="after:usaNonCombatMove"/>
+    </attachment>
     <attachment name="triggerAttachmentamericanIDS1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedDefensiveStructures"/>
       <option name="unitType" value="americanEntrenchment"/>
@@ -30705,6 +31120,17 @@
       <option name="trigger" value="conditionAttachmentitalianImprovedSpecialWarfare"/>
       <option name="unitType" value="italianAlpineInfantry:italianMarine:italianCombatEngineer"/>
       <option name="unitProperty" value="attack" count="3"/>
+      <option name="uses" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianImpSW8" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentitalianImprovedSpecialWarfare"/>
+      <option name="support" value="supportAttachmentAirtranitalian3"/>
+      <option name="uses" value="1"/>
+    </attachment>	
+	<attachment name="triggerAttachmentitalianImpSW9" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentitalianImprovedSpecialWarfare"/>
+      <option name="unitType" value="italianAlpineInfantry"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianASW1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31445,6 +31871,18 @@
       <option name="trigger" value="conditionAttachmentitalianAdvancedLogistics"/>
       <option name="unitType" value="Train"/>
       <option name="unitProperty" value="transportCapacity" count="5"/>
+      <option name="when" value="after:italyNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianAL6" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentitalianAdvancedLogistics"/>
+      <option name="unitType" value="italianInfantry:italianMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="true"/>
+      <option name="when" value="before:italyNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentitalianAL7" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentitalianAdvancedLogistics"/>
+      <option name="unitType" value="italianInfantry:italianMarine"/>
+      <option name="unitProperty" value="isAirTransportable" count="false"/>
       <option name="when" value="after:italyNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentitalianIDS1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -32599,8 +33037,8 @@
             <unitPlacement unitType="japaneseTransport" territory="131 Sea Zone" quantity="1" owner="Japan"/>
             <unitPlacement unitType="japaneseDestroyer" territory="131 Sea Zone" quantity="1" owner="Japan"/>
             <unitPlacement unitType="americanSubmarine" territory="134 Sea Zone" quantity="1" owner="Usa"/>
-            <unitPlacement unitType="americanDestroyer" territory="137 Sea Zone" quantity="1" owner="Usa"/>
-            <unitPlacement unitType="americanCarrier" territory="137 Sea Zone" quantity="1" owner="Usa"/>
+            <unitPlacement unitType="americanDestroyer" territory="136 Sea Zone" quantity="1" owner="Usa"/>
+            <unitPlacement unitType="americanCarrier" territory="136 Sea Zone" quantity="1" owner="Usa"/>
             <unitPlacement unitType="britishTransport" territory="14 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishTransport" territory="143 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishSubmarine" territory="145 Sea Zone" quantity="1" owner="Britain"/>
