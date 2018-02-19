@@ -6954,7 +6954,7 @@
       <option name="maxDamage" value="1"/>
       <option name="canDieFromReachingMaxDamage" value="true"/>
       <option name="isLandTransport" value="true"/>
-	  <option name="TransportCapacity" value="2"/>
+	  <option name="transportCapacity" value="2"/>
       <option name="transportCost" value="2"/>
       <option name="isLandTransportable" value="true"/>
       <option name="canBeGivenByTerritoryTo" value="Germany:Britain:Japan"/>
@@ -6982,7 +6982,7 @@
 	  <option name="canDieFromReachingMaxDamage" value="true"/>
       <option name="isLandTransport" value="true"/>
       <option name="transportCost" value="5"/>
-	  <option name="TransportCapacity" value="5"/>	  
+	  <option name="transportCapacity" value="5"/>	  
       <option name="canBeGivenByTerritoryTo" value="Germany:Britain:Japan"/>
       <option name="isInfrastructure" value="true"/>
       <option name="requiresUnits" value="germanFactory"/>
@@ -8190,7 +8190,7 @@
       <option name="defense" value="3"/>
       <option name="transportCost" value="3"/>
 	  <option name="isLandTransportable" value="true"/>
- 	  <option name="TransportCapacity" value="2"/>
+ 	  <option name="transportCapacity" value="2"/>
       <option name="canBeGivenByTerritoryTo" value="Germany"/>
       <option name="requiresUnits" value="germanFactory"/>
       <option name="canInvadeOnlyFrom" value="none"/>
@@ -8449,7 +8449,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="4"/>
       <option name="defense" value="5"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -8462,7 +8462,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="7"/>
       <option name="defense" value="8"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -8794,7 +8794,7 @@
       <option name="defense" value="3"/>
       <option name="transportCost" value="3"/>
       <option name="isLandTransportable" value="true"/>
- 	  <option name="TransportCapacity" value="2"/>
+ 	  <option name="transportCapacity" value="2"/>
       <option name="requiresUnits" value="russianFactory"/>
       <option name="canInvadeOnlyFrom" value="none"/>
     </attachment>
@@ -9047,7 +9047,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="4"/>
       <option name="defense" value="5"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -9060,7 +9060,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="7"/>
       <option name="defense" value="8"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -9391,7 +9391,7 @@
       <option name="defense" value="3"/>
       <option name="transportCost" value="3"/>
       <option name="isLandTransportable" value="true"/>
- 	  <option name="TransportCapacity" value="2"/>
+ 	  <option name="transportCapacity" value="2"/>
       <option name="requiresUnits" value="americanFactory"/>
       <option name="canInvadeOnlyFrom" value="none"/>
     </attachment>
@@ -9644,7 +9644,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="4"/>
       <option name="defense" value="5"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -9657,7 +9657,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="7"/>
       <option name="defense" value="8"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -9988,7 +9988,7 @@
       <option name="defense" value="3"/>
       <option name="transportCost" value="3"/>
       <option name="isLandTransportable" value="true"/>
- 	  <option name="TransportCapacity" value="2"/>
+ 	  <option name="transportCapacity" value="2"/>
       <option name="requiresUnits" value="italianFactory"/>
       <option name="canInvadeOnlyFrom" value="none"/>
     </attachment>
@@ -10240,7 +10240,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="4"/>
       <option name="defense" value="5"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -10253,7 +10253,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="7"/>
       <option name="defense" value="8"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -10592,7 +10592,7 @@
       <option name="defense" value="3"/>
       <option name="transportCost" value="3"/>
       <option name="isLandTransportable" value="true"/>
- 	  <option name="TransportCapacity" value="2"/>
+ 	  <option name="transportCapacity" value="2"/>
       <option name="canBeGivenByTerritoryTo" value="Japan"/>
       <option name="requiresUnits" value="japaneseFactory"/>
       <option name="canInvadeOnlyFrom" value="none"/>
@@ -10851,7 +10851,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="4"/>
       <option name="defense" value="5"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -10864,7 +10864,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="7"/>
       <option name="defense" value="8"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -11279,7 +11279,7 @@
       <option name="defense" value="3"/>
       <option name="transportCost" value="3"/>
       <option name="isLandTransportable" value="true"/>
- 	  <option name="TransportCapacity" value="2"/>
+ 	  <option name="transportCapacity" value="2"/>
       <option name="canBeGivenByTerritoryTo" value="Britain"/>
       <option name="requiresUnits" value="britishFactory"/>
       <option name="canInvadeOnlyFrom" value="none"/>
@@ -11542,7 +11542,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="4"/>
       <option name="defense" value="5"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -11556,7 +11556,7 @@
       <option name="movement" value="2"/>
       <option name="attack" value="7"/>
       <option name="defense" value="8"/>
-      <option name="CarrierCost" value="1"/>
+      <option name="carrierCost" value="1"/>
       <option name="isAir" value="true"/>
       <option name="canScramble" value="true"/>
       <option name="maxScrambleDistance" value="1"/>
@@ -11815,7 +11815,7 @@
       <option name="defense" value="3"/>
       <option name="transportCost" value="3"/>
       <option name="isLandTransportable" value="true"/>
- 	  <option name="TransportCapacity" value="2"/>
+ 	  <option name="transportCapacity" value="2"/>
       <option name="requiresUnits" value="chineseFactory"/>
       <option name="canInvadeOnlyFrom" value="none"/>
     </attachment>
