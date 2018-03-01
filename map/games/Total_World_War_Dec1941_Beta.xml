@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Total World War: December 1941 BETA" version="2.8.0.2"/>
+  <info name="Total World War: December 1941 BETA" version="2.8.0.3"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="12"/>
@@ -6956,7 +6956,7 @@
       <option name="isLandTransport" value="true"/>
 	  <option name="transportCapacity" value="2"/>
       <option name="transportCost" value="2"/>
-      <option name="isLandTransportable" value="true"/>
+      <option name="isLandTransportable" value="false"/>
       <option name="canBeGivenByTerritoryTo" value="Germany:Britain:Japan"/>
       <option name="isInfrastructure" value="true"/>
       <option name="requiresUnits" value="germanFactory"/>
@@ -12055,6 +12055,7 @@
     <attachment name="territoryAttachment" attachTo="Northeastern US" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
       <option name="territoryEffect" value="Coast"/>
+      <option name="territoryEffect" value="Forest"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Southeastern US" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -12111,6 +12112,7 @@
       <option name="production" value="2"/>
       <option name="territoryEffect" value="Mountain"/>
       <option name="territoryEffect" value="Coast"/>
+      <option name="territoryEffect" value="Forest"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Fo Kien" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -12206,6 +12208,7 @@
       <option name="production" value="2"/>
       <option name="territoryEffect" value="Mountain"/>
       <option name="territoryEffect" value="Coast"/>
+      <option name="territoryEffect" value="Forest"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Baluchistan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -35411,8 +35414,8 @@
 <p>
 <p> <a name="AI, Settings and Options"><font size="6"><b><em>AI, Settings and Options</em></b></font></a></p>
 <br><b>
-<br>Brazil, Spain, Sweden, Turkey only move and produce, but never attack.
-<br>Select Fodder AI for them.
+<br>Neutral:Brazil, Spain, Sweden, Turkey only move and produce, but never attack.
+<br>Select Does Nothing AI for them.
 <br>Set AI Pause Duration to 0 to speed up AI moves(Game->AI Pause Duration-> 0 ms)
 <br>Switch off :Confirm Enemy Casualties and Focus on own casualties for more speed,too.
 <br>If you want to play without those active neutrals and without the option to attack them, switch off politics.</b>
@@ -35437,12 +35440,11 @@
 <br><img src="Page18.png"/>
 <br><img src="Page19.png"/>
 <br>Find the Manual as Pdf here:
-<br>(Windows XP)  C:/Documents and Settings/YourName/triplea/maps/Total_World_War.zip
+<br>(Windows XP)  C:/Documents and Settings/YourName/triplea/downloaded maps/Total_World_War.zip
 <br>(Windows 7)  C:/Users/YourName/triplea/maps/Total_World_War.zip
 <br>(Mac)  /home/user/documents/triplea/maps/Total_World_War.zip
 <br>(Linux)  /home/user/triplea/maps/Total_World_War.zip
 <br>(Windows 8) no clue/triplea/maps/Total_World_War.zip
-<br>Suggestion: Go to your maps folder, unzip the file and delete the .zip file.
 ]]></value>
     </property>
   </propertyList>
