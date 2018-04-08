@@ -8331,7 +8331,7 @@
       <option name="hitPoints" value="2"/>
       <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:germanBattleship"/>
-	  <option name="tuv" value="17"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -8931,7 +8931,7 @@
       <option name="hitPoints" value="2"/>
       <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:russianBattleship"/>
-	  <option name="tuv" value="17"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -9529,7 +9529,7 @@
       <option name="hitPoints" value="2"/>
       <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:americanBattleship"/>
-	  <option name="tuv" value="17"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -10126,7 +10126,7 @@
       <option name="hitPoints" value="2"/>
       <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:italianBattleship"/>
-	  <option name="tuv" value="17"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -10737,7 +10737,7 @@
       <option name="hitPoints" value="2"/>
       <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:japaneseBattleship"/>
-	  <option name="tuv" value="17"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -11427,7 +11427,7 @@
       <option name="hitPoints" value="2"/>
       <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:britishBattleship"/>
-	  <option name="tuv" value="17"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
