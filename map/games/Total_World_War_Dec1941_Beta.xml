@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Total World War: December 1941 BETA" version="2.8.0.3"/>
+  <info name="Total World War: December 1941 BETA" version="2.8.0.4"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="12"/>
