@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Total World War: December 1941 BETA" version="2.8.0.3"/>
+  <info name="Total World War: December 1941 BETA" version="2.8.0.4"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="12"/>
@@ -6049,7 +6049,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:brazilianDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -6293,7 +6293,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:brazilianDestroyer:spanishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -6537,7 +6537,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:brazilianDestroyer:swedishDestroyer:spanishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -6781,7 +6781,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -8121,6 +8121,7 @@
       <option name="mayOverStackAA" value="true"/>
       <option name="canInvadeOnlyFrom" value="none"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:germanHeavyTank"/>
+      <option name="tuv" value="7"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanArtillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -8259,7 +8260,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:spanishDestroyer:brazilianDestroyer:swedishDestroyer:turkishDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
       <option name="requiresUnits" value="germanDocks"/>
@@ -8278,7 +8279,7 @@
       <option name="typeAA" value="AdvSubstrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:spanishDestroyer:brazilianDestroyer:swedishDestroyer:turkishDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="3"/>
     </attachment>
@@ -8317,7 +8318,7 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="6"/>
+      <option name="bombard" value="5"/>
       <option name="requiresUnits" value="germanDocks:germanFactory"/>
       <option name="consumesUnits" value="1:germanHull"/>
       <option name="whenHitPointsDamagedChangesInto" value="1:true:germanBattleship-damaged"/>
@@ -8329,8 +8330,9 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="4"/>
+      <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:germanBattleship"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -8373,6 +8375,7 @@
       <option name="whenCombatDamaged" value="unitsMayNotLandOnCarrier" count="1:2"/>
       <option name="whenCombatDamaged" value="unitsMayNotLeaveAlliedCarrier" count="1:2"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:germanCarrier"/>
+      <option name="tuv" value="16"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanFighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -8730,6 +8733,7 @@
       <option name="damageableAA" value="true"/>
       <option name="canInvadeOnlyFrom" value="none"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:russianHeavyTank"/>
+      <option name="tuv" value="7"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianArtillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -8862,7 +8866,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="brazilianDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -8879,7 +8883,7 @@
       <option name="typeAA" value="AdvSubstrike"/>
       <option name="targetsAA" value="brazilianDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="4"/>
     </attachment>
@@ -8916,7 +8920,7 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="6"/>
+      <option name="bombard" value="5"/>
       <option name="requiresUnits" value="russianDocks:russianFactory"/>
       <option name="consumesUnits" value="1:russianHull"/>
       <option name="whenHitPointsDamagedChangesInto" value="1:true:russianBattleship-damaged"/>
@@ -8928,8 +8932,9 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="4"/>
+      <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:russianBattleship"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -8972,6 +8977,7 @@
       <option name="whenCombatDamaged" value="unitsMayNotLandOnCarrier" count="1:2"/>
       <option name="whenCombatDamaged" value="unitsMayNotLeaveAlliedCarrier" count="1:2"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:russianCarrier"/>
+      <option name="tuv" value="16"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianFighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -9327,6 +9333,7 @@
       <option name="damageableAA" value="true"/>
       <option name="canInvadeOnlyFrom" value="none"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:americanHeavyTank"/>
+      <option name="tuv" value="7"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanArtillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -9459,7 +9466,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="brazilianDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -9476,7 +9483,7 @@
       <option name="typeAA" value="AdvSubstrike"/>
       <option name="targetsAA" value="brazilianDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="4"/>
     </attachment>
@@ -9513,7 +9520,7 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="6"/>
+      <option name="bombard" value="5"/>
       <option name="requiresUnits" value="americanDocks:americanFactory"/>
       <option name="consumesUnits" value="1:americanHull"/>
       <option name="whenHitPointsDamagedChangesInto" value="1:true:americanBattleship-damaged"/>
@@ -9525,8 +9532,9 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="4"/>
+      <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:americanBattleship"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -9569,6 +9577,7 @@
       <option name="whenCombatDamaged" value="unitsMayNotLandOnCarrier" count="1:2"/>
       <option name="whenCombatDamaged" value="unitsMayNotLeaveAlliedCarrier" count="1:2"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:americanCarrier"/>
+      <option name="tuv" value="16"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanFighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -9924,6 +9933,7 @@
       <option name="damageableAA" value="true"/>
       <option name="canInvadeOnlyFrom" value="none"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:italianHeavyTank"/>
+      <option name="tuv" value="7"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianArtillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -10055,7 +10065,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:spanishDestroyer:brazilianDestroyer:swedishDestroyer:turkishDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -10072,7 +10082,7 @@
       <option name="typeAA" value="AdvSubstrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:spanishDestroyer:brazilianDestroyer:swedishDestroyer:turkishDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="4"/>
     </attachment>
@@ -10109,7 +10119,7 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="6"/>
+      <option name="bombard" value="5"/>
       <option name="requiresUnits" value="italianDocks:italianFactory"/>
       <option name="consumesUnits" value="1:italianHull"/>
       <option name="whenHitPointsDamagedChangesInto" value="1:true:italianBattleship-damaged"/>
@@ -10121,8 +10131,9 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="4"/>
+      <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:italianBattleship"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -10165,6 +10176,7 @@
       <option name="whenCombatDamaged" value="unitsMayNotLandOnCarrier" count="1:2"/>
       <option name="whenCombatDamaged" value="unitsMayNotLeaveAlliedCarrier" count="1:2"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:italianCarrier"/>
+      <option name="tuv" value="16"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianFighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -10523,6 +10535,7 @@
       <option name="damageableAA" value="true"/>
       <option name="canInvadeOnlyFrom" value="none"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:japaneseHeavyTank"/>
+      <option name="tuv" value="7"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseArtillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -10663,7 +10676,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:spanishDestroyer:brazilianDestroyer:swedishDestroyer:turkishDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -10680,7 +10693,7 @@
       <option name="typeAA" value="AdvSubstrike"/>
       <option name="targetsAA" value="russianDestroyer:russianHeavyDestroyer:britishDestroyer:britishHeavyDestroyer:chineseDestroyer:americanDestroyer:americanHeavyDestroyer:spanishDestroyer:brazilianDestroyer:swedishDestroyer:turkishDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="4"/>
     </attachment>
@@ -10719,7 +10732,7 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="6"/>
+      <option name="bombard" value="5"/>
       <option name="requiresUnits" value="japaneseDocks:japaneseFactory"/>
       <option name="consumesUnits" value="1:japaneseHull"/>
       <option name="whenHitPointsDamagedChangesInto" value="1:true:japaneseBattleship-damaged"/>
@@ -10731,8 +10744,9 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="4"/>
+      <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:japaneseBattleship"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -10775,6 +10789,7 @@
       <option name="whenCombatDamaged" value="unitsMayNotLandOnCarrier" count="1:2"/>
       <option name="whenCombatDamaged" value="unitsMayNotLeaveAlliedCarrier" count="1:2"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:japaneseCarrier"/>
+      <option name="tuv" value="16"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseFighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -11210,6 +11225,7 @@
       <option name="damageableAA" value="true"/>
       <option name="canInvadeOnlyFrom" value="none"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:britishHeavyTank"/>
+      <option name="tuv" value="7"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishArtillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -11351,7 +11367,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="brazilianDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -11368,7 +11384,7 @@
       <option name="typeAA" value="AdvSubstrike"/>
       <option name="targetsAA" value="brazilianDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="4"/>
     </attachment>
@@ -11408,7 +11424,7 @@
       <option name="canBeGivenByTerritoryTo" value="Britain"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="6"/>
+      <option name="bombard" value="5"/>
       <option name="requiresUnits" value="britishDocks:britishFactory"/>
       <option name="consumesUnits" value="1:britishHull"/>
       <option name="whenHitPointsDamagedChangesInto" value="1:true:britishBattleship-damaged"/>
@@ -11420,8 +11436,9 @@
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
       <option name="hitPoints" value="2"/>
-      <option name="bombard" value="4"/>
+      <option name="bombard" value="5"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:britishBattleship"/>
+      <option name="tuv" value="17"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishHull" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
@@ -11465,6 +11482,7 @@
       <option name="whenCombatDamaged" value="unitsMayNotLandOnCarrier" count="1:2"/>
       <option name="whenCombatDamaged" value="unitsMayNotLeaveAlliedCarrier" count="1:2"/>
       <option name="whenHitPointsRepairedChangesInto" value="0:true:britishCarrier"/>
+      <option name="tuv" value="16"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishFighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -11866,7 +11884,7 @@
       <option name="typeAA" value="Substrike"/>
       <option name="targetsAA" value="brazilianDestroyer:spanishDestroyer:swedishDestroyer:turkishDestroyer:germanDestroyer:germanHeavyDestroyer:italianDestroyer:italianHeavyDestroyer:japaneseDestroyer:japaneseHeavyDestroyer"/>
       <option name="maxAAattacks" value="1"/>
-      <option name="maxRoundsAA" value="-1"/>
+      <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="attackAA" value="2"/>
     </attachment>
@@ -22954,12 +22972,12 @@
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNAESC" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRAESC"/>
+      <option name="conditions" value="conditionAttachmentLLbTNAESC"/>
       <option name="placement" value="Eastern Szechwan:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTNAESC" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentLLbTRAESC"/>
+      <option name="conditions" value="conditionAttachmentLLbTNAESC"/>
       <option name="removeUnits" value="Eastern Szechwan:Train"/>
       <option name="when" value="before:britainEndTurn"/>
     </attachment>
@@ -26206,13 +26224,13 @@
     <attachment name="triggerAttachmentgermanIGL2" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedGunLaying"/>
       <option name="unitType" value="germanBattleship"/>
-      <option name="unitProperty" value="bombard" count="7"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanIGL3" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedGunLaying"/>
       <option name="unitType" value="germanBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="5"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanAGL1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -26224,13 +26242,13 @@
     <attachment name="triggerAttachmentgermanAGL2" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanAdvancedGunLaying"/>
       <option name="unitType" value="germanBattleship"/>
-      <option name="unitProperty" value="bombard" count="8"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanAGL3" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanAdvancedGunLaying"/>
       <option name="unitType" value="germanBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="6"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanIH1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -27308,13 +27326,13 @@
     <attachment name="triggerAttachmentbritishIGL2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedGunLaying"/>
       <option name="unitType" value="britishBattleship"/>
-      <option name="unitProperty" value="bombard" count="7"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishIGL3" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedGunLaying"/>
       <option name="unitType" value="britishBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="5"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAGL1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -27326,13 +27344,13 @@
     <attachment name="triggerAttachmentbritishAGL2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishAdvancedGunLaying"/>
       <option name="unitType" value="britishBattleship"/>
-      <option name="unitProperty" value="bombard" count="8"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAGL3" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishAdvancedGunLaying"/>
       <option name="unitType" value="britishBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="6"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishIH1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28505,13 +28523,13 @@
     <attachment name="triggerAttachmentjapaneseIGL2" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedGunLaying"/>
       <option name="unitType" value="japaneseBattleship"/>
-      <option name="unitProperty" value="bombard" count="7"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseIGL3" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedGunLaying"/>
       <option name="unitType" value="japaneseBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="5"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAGL1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28523,13 +28541,13 @@
     <attachment name="triggerAttachmentjapaneseAGL2" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseAdvancedGunLaying"/>
       <option name="unitType" value="japaneseBattleship"/>
-      <option name="unitProperty" value="bombard" count="8"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAGL3" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseAdvancedGunLaying"/>
       <option name="unitType" value="japaneseBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="6"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseIH1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29582,13 +29600,13 @@
     <attachment name="triggerAttachmentrussianIGL2" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedGunLaying"/>
       <option name="unitType" value="russianBattleship"/>
-      <option name="unitProperty" value="bombard" count="7"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianIGL3" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedGunLaying"/>
       <option name="unitType" value="russianBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="5"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAGL1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29600,13 +29618,13 @@
     <attachment name="triggerAttachmentrussianAGL2" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianAdvancedGunLaying"/>
       <option name="unitType" value="russianBattleship"/>
-      <option name="unitProperty" value="bombard" count="8"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAGL3" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianAdvancedGunLaying"/>
       <option name="unitType" value="russianBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="6"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianIH1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30646,13 +30664,13 @@
     <attachment name="triggerAttachmentamericanIGL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedGunLaying"/>
       <option name="unitType" value="americanBattleship"/>
-      <option name="unitProperty" value="bombard" count="7"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanIGL3" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedGunLaying"/>
       <option name="unitType" value="americanBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="5"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAGL1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30664,13 +30682,13 @@
     <attachment name="triggerAttachmentamericanAGL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanAdvancedGunLaying"/>
       <option name="unitType" value="americanBattleship"/>
-      <option name="unitProperty" value="bombard" count="8"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAGL3" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanAdvancedGunLaying"/>
       <option name="unitType" value="americanBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="6"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanIH1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31680,13 +31698,13 @@
     <attachment name="triggerAttachmentitalianIGL2" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianImprovedGunLaying"/>
       <option name="unitType" value="italianBattleship"/>
-      <option name="unitProperty" value="bombard" count="7"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianIGL3" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianImprovedGunLaying"/>
       <option name="unitType" value="italianBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="5"/>
+      <option name="unitProperty" value="bombard" count="6"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAGL1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31698,13 +31716,13 @@
     <attachment name="triggerAttachmentitalianAGL2" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianAdvancedGunLaying"/>
       <option name="unitType" value="italianBattleship"/>
-      <option name="unitProperty" value="bombard" count="8"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAGL3" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianAdvancedGunLaying"/>
       <option name="unitType" value="italianBattleship-damaged"/>
-      <option name="unitProperty" value="bombard" count="6"/>
+      <option name="unitProperty" value="bombard" count="7"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianIH1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
