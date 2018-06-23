@@ -30011,7 +30011,7 @@
       <option name="relationshipChange" value="Usa:Spain:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_SPAIN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSpain" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30025,7 +30025,7 @@
       <option name="relationshipChange" value="Usa:Spain:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_SPAIN"/>
       <option name="chance" value="1:10"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnSpain" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30038,7 +30038,7 @@
       <option name="relationshipChange" value="Usa:Spain:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_SPAIN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSpain" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30052,7 +30052,7 @@
       <option name="relationshipChange" value="Usa:Spain:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_SPAIN"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnSpain" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30065,7 +30065,7 @@
       <option name="relationshipChange" value="Usa:Spain:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_SPAIN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSpain" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30079,7 +30079,7 @@
       <option name="relationshipChange" value="Usa:Spain:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_SPAIN"/>
       <option name="chance" value="1:10"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnSpain" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30092,7 +30092,7 @@
       <option name="relationshipChange" value="Usa:Spain:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_SPAIN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSpain" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30106,7 +30106,7 @@
       <option name="relationshipChange" value="Usa:Spain:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_SPAIN"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnSpain" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30119,7 +30119,7 @@
       <option name="relationshipChange" value="Usa:Spain:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_SPAIN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSpain" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30133,7 +30133,7 @@
       <option name="relationshipChange" value="Usa:Spain:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_SPAIN"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnSpain" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30146,7 +30146,7 @@
       <option name="relationshipChange" value="Usa:Spain:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_SPAIN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSpain" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30160,7 +30160,7 @@
       <option name="relationshipChange" value="Usa:Spain:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_SPAIN"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnSweden" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30173,7 +30173,7 @@
       <option name="relationshipChange" value="Usa:Sweden:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_SWEDEN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSweden" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30187,7 +30187,7 @@
       <option name="relationshipChange" value="Usa:Sweden:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_SWEDEN"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnSweden" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30200,7 +30200,7 @@
       <option name="relationshipChange" value="Usa:Sweden:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_SWEDEN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSweden" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30214,7 +30214,7 @@
       <option name="relationshipChange" value="Usa:Sweden:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_SWEDEN"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnSweden" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30227,7 +30227,7 @@
       <option name="relationshipChange" value="Usa:Sweden:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_SWEDEN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSweden" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30241,7 +30241,7 @@
       <option name="relationshipChange" value="Usa:Sweden:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_SWEDEN"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnSweden" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30254,7 +30254,7 @@
       <option name="relationshipChange" value="Usa:Sweden:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_SWEDEN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSweden" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30268,7 +30268,7 @@
       <option name="relationshipChange" value="Usa:Sweden:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_SWEDEN"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnSweden" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30281,7 +30281,7 @@
       <option name="relationshipChange" value="Usa:Sweden:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_SWEDEN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSweden" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30295,7 +30295,7 @@
       <option name="relationshipChange" value="Usa:Sweden:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_SWEDEN"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnSweden" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30308,7 +30308,7 @@
       <option name="relationshipChange" value="Usa:Sweden:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_SWEDEN"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSweden" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30322,7 +30322,7 @@
       <option name="relationshipChange" value="Usa:Sweden:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_SWEDEN"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnTurkey" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30335,7 +30335,7 @@
       <option name="relationshipChange" value="Usa:Turkey:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_TURKEY"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithTurkey" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30349,7 +30349,7 @@
       <option name="relationshipChange" value="Usa:Turkey:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_TURKEY"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnTurkey" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30362,7 +30362,7 @@
       <option name="relationshipChange" value="Usa:Turkey:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_TURKEY"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithTurkey" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30376,7 +30376,7 @@
       <option name="relationshipChange" value="Usa:Turkey:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_TURKEY"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnTurkey" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30389,7 +30389,7 @@
       <option name="relationshipChange" value="Usa:Turkey:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_TURKEY"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithTurkey" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30403,7 +30403,7 @@
       <option name="relationshipChange" value="Usa:Turkey:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_TURKEY"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnTurkey" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30416,7 +30416,7 @@
       <option name="relationshipChange" value="Usa:Turkey:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_TURKEY"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithTurkey" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30430,7 +30430,7 @@
       <option name="relationshipChange" value="Usa:Turkey:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_TURKEY"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnTurkey" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30443,7 +30443,7 @@
       <option name="relationshipChange" value="Usa:Turkey:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_TURKEY"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithTurkey" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30457,7 +30457,7 @@
       <option name="relationshipChange" value="Usa:Turkey:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_TURKEY"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnTurkey" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30470,7 +30470,7 @@
       <option name="relationshipChange" value="Usa:Turkey:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_TURKEY"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithTurkey" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30484,7 +30484,7 @@
       <option name="relationshipChange" value="Usa:Turkey:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_TURKEY"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnBrazil" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30497,7 +30497,7 @@
       <option name="relationshipChange" value="Usa:Brazil:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_BRAZIL"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithBrazil" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30511,7 +30511,7 @@
       <option name="relationshipChange" value="Usa:Brazil:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_BRAZIL"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnBrazil" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30524,7 +30524,7 @@
       <option name="relationshipChange" value="Usa:Brazil:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_BRAZIL"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithBrazil" attachTo="Japan" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30538,7 +30538,7 @@
       <option name="relationshipChange" value="Usa:Brazil:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_BRAZIL"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisDeclareWarOnBrazil" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30551,7 +30551,7 @@
       <option name="relationshipChange" value="Usa:Brazil:Allied"/>
       <option name="text" value="AXIS_DECLAREWAR_BRAZIL"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithBrazil" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30565,7 +30565,7 @@
       <option name="relationshipChange" value="Usa:Brazil:War"/>
       <option name="text" value="AXIS_PROPOSEALLIANCE_BRAZIL"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnBrazil" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30578,7 +30578,7 @@
       <option name="relationshipChange" value="Usa:Brazil:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_BRAZIL"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithBrazil" attachTo="Russia" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30592,7 +30592,7 @@
       <option name="relationshipChange" value="Usa:Brazil:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_BRAZIL"/>
       <option name="chance" value="1:20"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnBrazil" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30605,7 +30605,7 @@
       <option name="relationshipChange" value="Usa:Brazil:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_BRAZIL"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithBrazil" attachTo="Britain" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30619,7 +30619,7 @@
       <option name="relationshipChange" value="Usa:Brazil:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_BRAZIL"/>
       <option name="chance" value="1:15"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesDeclareWarOnBrazil" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30632,7 +30632,7 @@
       <option name="relationshipChange" value="Usa:Brazil:War"/>
       <option name="text" value="ALLIES_DECLAREWAR_BRAZIL"/>
       <option name="chance" value="1:1"/>
-      <option name="costPU" value="0"/>
+      <option name="costResources" value="PUs" count="0"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithBrazil" attachTo="Usa" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
@@ -30646,7 +30646,7 @@
       <option name="relationshipChange" value="Usa:Brazil:Allied"/>
       <option name="text" value="ALLIES_PROPOSEALLIANCE_BRAZIL"/>
       <option name="chance" value="1:10"/>
-      <option name="costPU" value="5"/>
+      <option name="costResources" value="PUs" count="5"/>
       <option name="attemptsPerTurn" value="1"/>
     </attachment>
   </attachmentList>
