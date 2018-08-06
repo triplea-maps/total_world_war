@@ -1850,12 +1850,12 @@
     <player name="DanubeAxis" optional="false"/>
     <player name="Finland" optional="false"/>
     <player name="Russia" optional="false"/>
-    <player name="Brazil" optional="false"/>
+    <player name="Brazil" optional="true" canBeDisabled="true"/>
     <player name="Japan" optional="false"/>
     <player name="Manchuria" optional="false"/>
     <player name="Thailand" optional="false"/>
     <player name="China" optional="false"/>
-    <player name="Spain" optional="false"/>
+    <player name="Spain" optional="true" canBeDisabled="true"/>
     <player name="Britain" optional="false"/>
     <player name="Canada" optional="false"/>
     <player name="ExiledAllies" optional="false"/>
@@ -1863,10 +1863,10 @@
     <player name="SouthAfrica" optional="false"/>
     <player name="India" optional="false"/>
     <player name="Australia" optional="false"/>
-    <player name="Sweden" optional="false"/>
+    <player name="Sweden" optional="true" canBeDisabled="true"/>
     <player name="Italy" optional="false"/>
     <player name="Usa" optional="false"/>
-    <player name="Turkey" optional="false"/>
+    <player name="Turkey" optional="true" canBeDisabled="true"/>
     <alliance player="Germany" alliance="Axis-Germany"/>
     <alliance player="VichyFrance" alliance="Axis-Germany"/>
     <alliance player="DanubeAxis" alliance="Axis-Germany"/>
@@ -14491,6 +14491,8 @@
       <option name="territoryEffect" value="Sea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="69 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+	  <option name="changeUnitOwners" value="Britain"/>
+      <option name="changeUnitOwners" value="Germany"/>	  
       <option name="territoryEffect" value="Sea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="73 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -14877,8 +14879,10 @@
       <option name="combatDefenseEffect" value="germanFighter" count="-1"/>
       <option name="combatOffenseEffect" value="germanAdvancedFighter" count="-2"/>
       <option name="combatDefenseEffect" value="germanAdvancedFighter" count="-2"/>
-      <option name="combatOffenseEffect" value="germanNavalFighter" count="1"/>
-      <option name="combatDefenseEffect" value="germanNavalFighter" count="1"/>
+      <option name="combatOffenseEffect" value="germanNavalFighter" count="0"/>
+      <option name="combatDefenseEffect" value="germanNavalFighter" count="0"/>
+      <option name="combatOffenseEffect" value="germanAdvancedNavalFighter" count="-1"/>
+      <option name="combatDefenseEffect" value="germanAdvancedNavalFighter" count="-1"/>
       <option name="combatOffenseEffect" value="germanTacticalBomber" count="0"/>
       <option name="combatDefenseEffect" value="germanTacticalBomber" count="0"/>
       <option name="combatOffenseEffect" value="germanStrategicBomber" count="0"/>
@@ -14921,8 +14925,10 @@
       <option name="combatDefenseEffect" value="russianFighter" count="-1"/>
       <option name="combatOffenseEffect" value="russianAdvancedFighter" count="-2"/>
       <option name="combatDefenseEffect" value="russianAdvancedFighter" count="-2"/>
-      <option name="combatOffenseEffect" value="russianNavalFighter" count="1"/>
-      <option name="combatDefenseEffect" value="russianNavalFighter" count="1"/>
+      <option name="combatOffenseEffect" value="russianNavalFighter" count="0"/>
+      <option name="combatDefenseEffect" value="russianNavalFighter" count="0"/>
+      <option name="combatOffenseEffect" value="russianAdvancedNavalFighter" count="-1"/>
+      <option name="combatDefenseEffect" value="russianAdvancedNavalFighter" count="-1"/>
       <option name="combatOffenseEffect" value="russianTacticalBomber" count="0"/>
       <option name="combatDefenseEffect" value="russianTacticalBomber" count="0"/>
       <option name="combatOffenseEffect" value="russianStrategicBomber" count="0"/>
@@ -14965,8 +14971,10 @@
       <option name="combatDefenseEffect" value="japaneseFighter" count="-1"/>
       <option name="combatOffenseEffect" value="japaneseAdvancedFighter" count="-2"/>
       <option name="combatDefenseEffect" value="japaneseAdvancedFighter" count="-2"/>
-      <option name="combatOffenseEffect" value="japaneseNavalFighter" count="1"/>
-      <option name="combatDefenseEffect" value="japaneseNavalFighter" count="1"/>
+      <option name="combatOffenseEffect" value="japaneseNavalFighter" count="0"/>
+      <option name="combatDefenseEffect" value="japaneseNavalFighter" count="0"/>
+      <option name="combatOffenseEffect" value="japaneseAdvancedNavalFighter" count="-1"/>
+      <option name="combatDefenseEffect" value="japaneseAdvancedNavalFighter" count="-1"/>
       <option name="combatOffenseEffect" value="japaneseTacticalBomber" count="0"/>
       <option name="combatDefenseEffect" value="japaneseTacticalBomber" count="0"/>
       <option name="combatOffenseEffect" value="japaneseStrategicBomber" count="0"/>
@@ -15009,8 +15017,10 @@
       <option name="combatDefenseEffect" value="britishFighter" count="-1"/>
       <option name="combatOffenseEffect" value="britishAdvancedFighter" count="-2"/>
       <option name="combatDefenseEffect" value="britishAdvancedFighter" count="-2"/>
-      <option name="combatOffenseEffect" value="britishNavalFighter" count="1"/>
-      <option name="combatDefenseEffect" value="britishNavalFighter" count="1"/>
+      <option name="combatOffenseEffect" value="britishNavalFighter" count="0"/>
+      <option name="combatDefenseEffect" value="britishNavalFighter" count="0"/>
+      <option name="combatOffenseEffect" value="britishAdvancedNavalFighter" count="-1"/>
+      <option name="combatDefenseEffect" value="britishAdvancedNavalFighter" count="-1"/>
       <option name="combatOffenseEffect" value="britishTacticalBomber" count="0"/>
       <option name="combatDefenseEffect" value="britishTacticalBomber" count="0"/>
       <option name="combatOffenseEffect" value="britishStrategicBomber" count="0"/>
@@ -15053,8 +15063,10 @@
       <option name="combatDefenseEffect" value="italianFighter" count="-1"/>
       <option name="combatOffenseEffect" value="italianAdvancedFighter" count="-2"/>
       <option name="combatDefenseEffect" value="italianAdvancedFighter" count="-2"/>
-      <option name="combatOffenseEffect" value="italianNavalFighter" count="1"/>
-      <option name="combatDefenseEffect" value="italianNavalFighter" count="1"/>
+      <option name="combatOffenseEffect" value="italianNavalFighter" count="0"/>
+      <option name="combatDefenseEffect" value="italianNavalFighter" count="0"/>
+      <option name="combatOffenseEffect" value="italianAdvancedNavalFighter" count="-1"/>
+      <option name="combatDefenseEffect" value="italianAdvancedNavalFighter" count="-1"/>
       <option name="combatOffenseEffect" value="italianTacticalBomber" count="0"/>
       <option name="combatDefenseEffect" value="italianTacticalBomber" count="0"/>
       <option name="combatOffenseEffect" value="italianStrategicBomber" count="0"/>
@@ -15097,8 +15109,10 @@
       <option name="combatDefenseEffect" value="americanFighter" count="-1"/>
       <option name="combatOffenseEffect" value="americanAdvancedFighter" count="-2"/>
       <option name="combatDefenseEffect" value="americanAdvancedFighter" count="-2"/>
-      <option name="combatOffenseEffect" value="americanNavalFighter" count="1"/>
-      <option name="combatDefenseEffect" value="americanNavalFighter" count="1"/>
+      <option name="combatOffenseEffect" value="americanNavalFighter" count="0"/>
+      <option name="combatDefenseEffect" value="americanNavalFighter" count="0"/>
+      <option name="combatOffenseEffect" value="americanAdvancedNavalFighter" count="-1"/>
+      <option name="combatDefenseEffect" value="americanAdvancedNavalFighter" count="-1"/>
       <option name="combatOffenseEffect" value="americanTacticalBomber" count="0"/>
       <option name="combatDefenseEffect" value="americanTacticalBomber" count="0"/>
       <option name="combatOffenseEffect" value="americanStrategicBomber" count="0"/>
@@ -33448,6 +33462,7 @@
             <unitPlacement unitType="Flagpole" territory="Congo" quantity="1" owner="ExiledAllies"/>
             <unitPlacement unitType="germanInfantry" territory="Copenhagen" quantity="2" owner="Germany"/>
             <unitPlacement unitType="Flagpole" territory="Copenhagen" quantity="1" owner="Germany"/>
+            <unitPlacement unitType="germanAirfield" territory="Copenhagen" quantity="1" owner="Germany"/>
             <unitPlacement unitType="Flagpole" territory="Corsica" quantity="1" owner="VichyFrance"/>
             <unitPlacement unitType="germanAirfield" territory="Crete" quantity="1" owner="Germany"/>
             <unitPlacement unitType="germanInfantry" territory="Crete" quantity="1" owner="Germany"/>
@@ -33545,6 +33560,7 @@
             <unitPlacement unitType="japaneseAntiAirGun" territory="Eastern Manchuria" quantity="1" owner="Japan"/>
             <unitPlacement unitType="japaneseArtillery" territory="Eastern Manchuria" quantity="1" owner="Japan"/>
             <unitPlacement unitType="japaneseInfantry" territory="Eastern Manchuria" quantity="2" owner="Japan"/>
+            <unitPlacement unitType="japaneseAlpineInfantry" territory="Eastern Manchuria" quantity="2" owner="Japan"/>
             <unitPlacement unitType="japaneseAirfield" territory="Eastern Manchuria" quantity="1" owner="Manchuria"/>
             <unitPlacement unitType="Rail" territory="Eastern Manchuria" quantity="1" owner="Manchuria"/>
             <unitPlacement unitType="Flagpole" territory="Eastern Manchuria" quantity="1" owner="Manchuria"/>
@@ -33931,7 +33947,7 @@
             <unitPlacement unitType="Flagpole" territory="Malay" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishEntrenchment" territory="Malta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishFortification" territory="Malta" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="britishInfantry" territory="Malta" quantity="2" owner="Britain"/>
+            <unitPlacement unitType="britishInfantry" territory="Malta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishAntiAirGun" territory="Malta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishFighter" territory="Malta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishAirfield" territory="Malta" quantity="1" owner="Britain"/>
@@ -34021,7 +34037,6 @@
             <unitPlacement unitType="Flagpole" territory="New Brunswick" quantity="1" owner="Canada"/>
             <unitPlacement unitType="Train" territory="New Brunswick" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishInfantry" territory="New Brunswick" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="britishFighter" territory="New Brunswick" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishInfantry" territory="New Dehli" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Rail" territory="New Dehli" quantity="1" owner="India"/>
             <unitPlacement unitType="Flagpole" territory="New Dehli" quantity="1" owner="India"/>
@@ -34256,6 +34271,7 @@
             <unitPlacement unitType="Flagpole" territory="Peking" quantity="1" owner="Japan"/>
             <unitPlacement unitType="Train" territory="Saigon" quantity="1" owner="Japan"/>
             <unitPlacement unitType="japaneseInfantry" territory="Peking" quantity="1" owner="Japan"/>
+            <unitPlacement unitType="japaneseAirfield" territory="Peking" quantity="1" owner="Japan"/>
             <unitPlacement unitType="italianInfantry" territory="Peloponnese" quantity="1" owner="Italy"/>
             <unitPlacement unitType="Flagpole" territory="Peloponnese" quantity="1" owner="Italy"/>
             <unitPlacement unitType="Fighter" territory="Peru Ecuador" quantity="1"/>
@@ -34763,6 +34779,7 @@
             <unitPlacement unitType="Rail" territory="West Africa" quantity="1" owner="VichyFrance"/>
             <unitPlacement unitType="Flagpole" territory="West Africa" quantity="1" owner="VichyFrance"/>
             <unitPlacement unitType="germanInfantry" territory="West Africa" quantity="1" owner="Germany"/>
+            <unitPlacement unitType="germanCombatEngineer" territory="West Africa" quantity="1" owner="Germany"/>
             <unitPlacement unitType="britishCombatEngineer" territory="Western Bengal" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishArtillery" territory="Western Bengal" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Rail" territory="Western Bengal" quantity="1" owner="India"/>
