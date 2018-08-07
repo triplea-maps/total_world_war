@@ -33578,7 +33578,7 @@
             <unitPlacement unitType="japaneseAntiAirGun" territory="Eastern Manchuria" quantity="1" owner="Japan"/>
             <unitPlacement unitType="japaneseArtillery" territory="Eastern Manchuria" quantity="1" owner="Japan"/>
             <unitPlacement unitType="japaneseInfantry" territory="Eastern Manchuria" quantity="2" owner="Japan"/>
-            <unitPlacement unitType="japaneseAlpineInfantry" territory="Eastern Manchuria" quantity="2" owner="Japan"/>
+            <unitPlacement unitType="japaneseAlpineInfantry" territory="Eastern Manchuria" quantity="1" owner="Japan"/>
             <unitPlacement unitType="japaneseAirfield" territory="Eastern Manchuria" quantity="1" owner="Manchuria"/>
             <unitPlacement unitType="Rail" territory="Eastern Manchuria" quantity="1" owner="Manchuria"/>
             <unitPlacement unitType="Flagpole" territory="Eastern Manchuria" quantity="1" owner="Manchuria"/>
