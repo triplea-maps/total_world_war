@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Total World War: December 1941 3.0" version="3.0.0.0"/>
+  <info name="Total World War: December 1941 3.0" version="3.0.0.1"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.9"/>
   <diceSides value="12"/>
@@ -8368,7 +8368,6 @@
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="isSea" value="true"/>
-      <option name="isDestroyer" value="true"/>
       <option name="requiresUnits" value="germanDocks:ResearchCenter"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="isAAforBombingThisUnitOnly" value="false"/>
@@ -8576,6 +8575,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="1"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanHeavyStrategicBomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -8597,6 +8597,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="3"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -8991,7 +8992,6 @@
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="isSea" value="true"/>
-      <option name="isDestroyer" value="true"/>
       <option name="requiresUnits" value="russianDocks:ResearchCenter"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="isAAforBombingThisUnitOnly" value="false"/>
@@ -9197,6 +9197,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="1"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianHeavyStrategicBomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -9218,6 +9219,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="3"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -9611,7 +9613,6 @@
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="isSea" value="true"/>
-      <option name="isDestroyer" value="true"/>
       <option name="requiresUnits" value="americanDocks:ResearchCenter"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="isAAforBombingThisUnitOnly" value="false"/>
@@ -9817,6 +9818,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="1"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanHeavyStrategicBomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -9838,6 +9840,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="3"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -10230,7 +10233,6 @@
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="isSea" value="true"/>
-      <option name="isDestroyer" value="true"/>
       <option name="requiresUnits" value="italianDocks:ResearchCenter"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="isAAforBombingThisUnitOnly" value="false"/>
@@ -10436,6 +10438,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="1"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianHeavyStrategicBomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -10457,6 +10460,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="3"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -10862,7 +10866,6 @@
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="isSea" value="true"/>
-      <option name="isDestroyer" value="true"/>
       <option name="requiresUnits" value="japaneseDocks:ResearchCenter"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="isAAforBombingThisUnitOnly" value="false"/>
@@ -11070,6 +11073,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="1"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseHeavyStrategicBomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -11091,6 +11095,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="3"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -11573,7 +11578,6 @@
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="isSea" value="true"/>
-      <option name="isDestroyer" value="true"/>
       <option name="requiresUnits" value="britishDocks:ResearchCenter"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="isAAforBombingThisUnitOnly" value="false"/>
@@ -11786,6 +11790,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="1"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishHeavyStrategicBomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -11807,6 +11812,7 @@
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
       <option name="offensiveAttackAA" value="3"/>
+      <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -12084,7 +12090,6 @@
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
       <option name="isSea" value="true"/>
-      <option name="isDestroyer" value="true"/>
       <option name="requiresUnits" value="chineseDocks"/>
       <option name="isAAforCombatOnly" value="true"/>
       <option name="isAAforBombingThisUnitOnly" value="false"/>
@@ -14638,6 +14643,8 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="42 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="territoryEffect" value="Sea"/>
+	  <option name="changeUnitOwners" value="Germany"/>
+      <option name="changeUnitOwners" value="Britain"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="43 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="territoryEffect" value="Sea"/>
@@ -14654,6 +14661,8 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="48 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="territoryEffect" value="Sea"/>
+	  <option name="changeUnitOwners" value="Germany"/>
+      <option name="changeUnitOwners" value="Britain"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="49 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="territoryEffect" value="Sea"/>
@@ -14686,15 +14695,21 @@
       <option name="territoryEffect" value="Sea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="61 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+	  <option name="changeUnitOwners" value="Britain"/>
+      <option name="changeUnitOwners" value="Germany"/>
       <option name="territoryEffect" value="Sea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="62 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+	  <option name="changeUnitOwners" value="Britain"/>
+      <option name="changeUnitOwners" value="Germany"/>	
       <option name="territoryEffect" value="Sea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="63 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="territoryEffect" value="Sea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="64 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+	  <option name="changeUnitOwners" value="Britain"/>
+      <option name="changeUnitOwners" value="Germany"/>	
       <option name="territoryEffect" value="Sea"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="65 Sea Zone" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
