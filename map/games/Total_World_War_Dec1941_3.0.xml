@@ -20249,59 +20249,65 @@
       <option name="objectiveValue" value="-111"/>
       <option name="directOwnershipTerritories" value="Berlin" count="1"/>
       <option name="uses" value="1"/>
+    </attachment>   
+    <attachment name="conditionAttachmentYesEA" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="switch" value="false"/>
     </attachment>
     <attachment name="objectiveAttachmentIceland1" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentIcelandEA"/>
+      <option name="conditions" value="conditionAttachmentIcelandEA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-1"/>
     </attachment>
     <attachment name="objectiveAttachmentSyria1" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentSyriaEA"/>
+      <option name="conditions" value="conditionAttachmentSyriaEA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-1"/>
     </attachment>
     <attachment name="objectiveAttachmentBelgianCongo1" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentBelgianCongoEA"/>
+      <option name="conditions" value="conditionAttachmentBelgianCongoEA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-2"/>
     </attachment>
     <attachment name="objectiveAttachmentNewHebrides1" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentNewHebridesEA"/>
+      <option name="conditions" value="conditionAttachmentNewHebridesEA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-1"/>
     </attachment>
     <attachment name="objectiveAttachmentVichyFrance1" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyFranceVichy"/>
+      <option name="conditions" value="conditionAttachmentVichyFranceVichy:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-3"/>
     </attachment>
     <attachment name="objectiveAttachmentBritishDutch1" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentBritishDutch1EA"/>
+      <option name="conditions" value="conditionAttachmentBritishDutch1EA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-2"/>
     </attachment>
     <attachment name="objectiveAttachmentBritishDutch2" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentBritishDutch2EA"/>
+      <option name="conditions" value="conditionAttachmentBritishDutch2EA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-3"/>
     </attachment>
     <attachment name="objectiveAttachmentBritishDutch3" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentBritishDutch3EA"/>
+      <option name="conditions" value="conditionAttachmentBritishDutch3EA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-3"/>
     </attachment>
     <attachment name="objectiveAttachmentBritishDutch4" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentBritishDutch4EA"/>
+      <option name="conditions" value="conditionAttachmentBritishDutch4EA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-2"/>
     </attachment>
     <attachment name="objectiveAttachmentBritishDutch5" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentBritishDutch5EA"/>
+      <option name="conditions" value="conditionAttachmentBritishDutch5EA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-2"/>
     </attachment>
     <attachment name="objectiveAttachmentBritishDutch6" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentBritishDutch6EA"/>
+      <option name="conditions" value="conditionAttachmentBritishDutch6EA:conditionAttachmentYesEA"/>
       <option name="objectiveValue" value="-2"/>
+    </attachment>   
+    <attachment name="conditionAttachmentYesVichy" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="switch" value="false"/>
     </attachment>
     <attachment name="objectiveAttachmentMorrocco" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentMorroccoVichy"/>
+      <option name="conditions" value="conditionAttachmentMorroccoVichy:conditionAttachmentYesVichy"/>
       <option name="objectiveValue" value="-2"/>
     </attachment>
     <attachment name="objectiveAttachmentAlgeria" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentAlgeriaVichy"/>
+      <option name="conditions" value="conditionAttachmentAlgeriaVichy:conditionAttachmentYesVichy"/>
       <option name="objectiveValue" value="-2"/>
-    </attachment>   
+    </attachment>       
     <attachment name="conditionAttachmentAusMat" attachTo="Australia" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="conditions" value="conditionAttachmentBritishDutch1EA:conditionAttachmentBritishDutch2EA:conditionAttachmentBritishDutch3EA:conditionAttachmentBritishDutch4EA:conditionAttachmentBritishDutch5EA:conditionAttachmentBritishDutch6EA"/>
       <option name="conditionType" value="1-6"/>
@@ -20321,7 +20327,7 @@
     <attachment name="conditionAttachmentVichyProtectorateLost" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="conditions" value="conditionAttachmentVichyMat"/>
       <option name="invert" value="true"/>
-    </attachment>  
+    </attachment>     
     <attachment name="conditionAttachmentMorroccoVichyBarracks" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Morrocco" count="1"/>
       <option name="unitPresence" value="germanBarracks" count="1"/>
@@ -23521,6 +23527,35 @@
       <option name="when" value="after:chinaNonCombatMove"/>
       <option name="when" value="after:russiaNonCombatMove"/>
       <option name="when" value="after:usaNonCombatMove"/>
+    </attachment>
+    
+    <attachment name="triggerAttachmentIncomeRegulationEA1" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentDummyCondition"/>
+      <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentYesEA"/>
+      <option name="playerProperty" value="switch" count="true"/>
+      <option name="players" value="ExiledAllies"/>
+      <option name="when" value="after:britainNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentIncomeRegulationEA2" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentDummyCondition"/>
+      <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentYesEA"/>
+      <option name="playerProperty" value="switch" count="false"/>
+      <option name="players" value="ExiledAllies"/>
+      <option name="when" value="after:italyNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentIncomeRegulationVichy1" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentDummyCondition"/>
+      <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentYesVichy"/>
+      <option name="playerProperty" value="switch" count="true"/>
+      <option name="players" value="VichyFrance"/>
+      <option name="when" value="after:germanyNonCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentIncomeRegulationVichy2" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentDummyCondition"/>
+      <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentYesVichy"/>
+      <option name="playerProperty" value="switch" count="false"/>
+      <option name="players" value="VichyFrance"/>
+      <option name="when" value="after:russiaNonCombatMove"/>
     </attachment>
 
     <attachment name="triggerAttachmentItalyShareTech" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
