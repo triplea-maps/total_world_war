@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Total World War: December 1941 3.0" version="3.0.0.1"/>
+  <info name="Total World War: December 1941 3.0" version="3.0.0.2"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.9"/>
   <diceSides value="12"/>
@@ -24406,6 +24406,8 @@
       <option name="changeOwnership" value="Tunisia:VichyFrance:Germany:false"/>
       <option name="changeOwnership" value="Southwestern Algeria:VichyFrance:Germany:false"/>
       <option name="changeOwnership" value="Southern Algeria:VichyFrance:Germany:false"/>
+      <option name="territories" value="Morrocco:Algeria:Tunisia:Southwestern Algeria:Southern Algeria"/>
+      <option name="territoryProperty" value="originalOwner" count="Germany"/>
       <option name="when" value="after:russiaBattle"/>
       <option name="when" value="after:chinaBattle"/>
       <option name="when" value="after:britainBattle"/>
