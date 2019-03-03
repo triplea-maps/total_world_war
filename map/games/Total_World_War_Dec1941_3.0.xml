@@ -23351,27 +23351,27 @@
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseFighter"/>
       <option name="unitProperty" value="isAir" count="true"/>
-      <option name="when" value="after:turkeyEndTurn"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc22" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseTacticalBomber"/>
       <option name="unitProperty" value="isAir" count="true"/>
       <option name="unitProperty" value="isStrategicBomber" count="true"/>
-      <option name="when" value="after:turkeyEndTurn"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc1b" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseFighter"/>
       <option name="unitProperty" value="isAir" count="false"/>
-      <option name="when" value="after:spainEndTurn"/>
+      <option name="when" value="after:chinaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc11b" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseTacticalBomber"/>
       <option name="unitProperty" value="isAir" count="false"/>
       <option name="unitProperty" value="isStrategicBomber" count="false"/>
-      <option name="when" value="after:spainEndTurn"/>
+      <option name="when" value="after:chinaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc2b" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
@@ -24231,12 +24231,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishNavalFighter" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabNFL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1"/>
       <option name="removeUnits" value="Labrador:americanNavalFighter" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabTBL1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1:conditionAttachmentLLabAP4"/>
@@ -24267,12 +24267,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishAirTransport" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabATL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1"/>
       <option name="removeUnits" value="Labrador:americanAirTransport" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabLL" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP11:conditionAttachmentLLabAP111"/>
@@ -24296,12 +24296,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishNavalFighter" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquNFL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1"/>
       <option name="removeUnits" value="Queensland:americanNavalFighter" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquTBL1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1:conditionAttachmentLLquAP4"/>
@@ -24332,12 +24332,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishAirTransport" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquATL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1"/>
       <option name="removeUnits" value="Queensland:americanAirTransport" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquLL" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP11:conditionAttachmentLLquAP111"/>
