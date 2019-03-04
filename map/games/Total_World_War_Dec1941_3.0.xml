@@ -34219,6 +34219,7 @@
             <unitPlacement unitType="britishBattleship" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishTransport" territory="10 Sea Zone" quantity="2" owner="Britain"/>
             <unitPlacement unitType="britishCruiser" territory="10 Sea Zone" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishSubmarine" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishDestroyer" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCarrier" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishNavalFighter" territory="10 Sea Zone" quantity="1" owner="Britain"/>
@@ -34267,7 +34268,6 @@
             <unitPlacement unitType="britishDestroyer" territory="148 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCruiser" territory="148 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCarrier" territory="148 Sea Zone" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="britishNavalFighter" territory="148 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="russianTransport" territory="15 Sea Zone" quantity="1" owner="Russia"/>
             <unitPlacement unitType="russianDestroyer" territory="15 Sea Zone" quantity="1" owner="Russia"/>
             <unitPlacement unitType="britishDestroyer" territory="151 Sea Zone" quantity="1" owner="Britain"/>
@@ -34342,7 +34342,6 @@
             <unitPlacement unitType="brazilianSubmarine" territory="65 Sea Zone" quantity="1" owner="Brazil"/>
             <unitPlacement unitType="brazilianDestroyer" territory="65 Sea Zone" quantity="1" owner="Brazil"/>
             <unitPlacement unitType="britishHull" territory="7 Sea Zone" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="britishSubmarine" territory="7 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishDestroyer" territory="7 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishTransport" territory="75 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishSubmarine" territory="75 Sea Zone" quantity="1" owner="Britain"/>
@@ -34857,7 +34856,6 @@
             <unitPlacement unitType="americanAntiAirGun" territory="Florida Peninsula" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanInfantry" territory="Florida Peninsula" quantity="1" owner="Usa"/>
             <unitPlacement unitType="Flagpole" territory="Florida Peninsula" quantity="1" owner="Usa"/>
-            <unitPlacement unitType="americanNavalFighter" territory="Florida Peninsula" quantity="1" owner="Usa"/>
             <unitPlacement unitType="chineseInfantry" territory="Fo Kien" quantity="2" owner="China"/>
             <unitPlacement unitType="chineseAirfield" territory="Fo Kien" quantity="1" owner="China"/>
             <unitPlacement unitType="Flagpole" territory="Fo Kien" quantity="1" owner="China"/>
@@ -35019,6 +35017,7 @@
             <unitPlacement unitType="britishInfantry" territory="Java" quantity="2" owner="Britain"/>
             <unitPlacement unitType="britishAntiAirGun" territory="Java" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCombatEngineer" territory="Java" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishNavalFighter" territory="Java" quantity="1" owner="Britain"/>
             <unitPlacement unitType="americanAirfield" territory="Johnston Island" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanInfantry" territory="Johnston Island" quantity="1" owner="Usa"/>
             <unitPlacement unitType="Flagpole" territory="Johnston Island" quantity="1" owner="Usa"/>
@@ -35475,6 +35474,7 @@
             <unitPlacement unitType="Flagpole" territory="Papua" quantity="1" owner="Australia"/>
             <unitPlacement unitType="britishInfantry" territory="Papua" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishAirfield" territory="Papua" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishAntiAirGun" territory="Papua" quantity="1" owner="Britain"/>
             <unitPlacement unitType="germanAntiAirGun" territory="Paris" quantity="1" owner="Germany"/>
             <unitPlacement unitType="germanAirfield" territory="Paris" quantity="1" owner="Germany"/>
             <unitPlacement unitType="germanCombatEngineer" territory="Paris" quantity="1" owner="Germany"/>
@@ -35994,6 +35994,7 @@
             <unitPlacement unitType="Rail" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanAirfield" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanArtillery" territory="Eastern US" quantity="1" owner="Usa"/>
+            <unitPlacement unitType="americanNavalFighter" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="Flagpole" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="UnitsForExiledAllies" territory="West Africa" quantity="1" owner="Germany"/>
             <unitPlacement unitType="germanAirfield" territory="West Africa" quantity="1" owner="VichyFrance"/>
