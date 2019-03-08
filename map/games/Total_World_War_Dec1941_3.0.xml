@@ -23297,6 +23297,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Szechwan:China:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternSzechwanLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -23328,6 +23329,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Szechwan:China:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternSzechwanLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -23799,6 +23801,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Altay:China:Russia:false"/>
       <option name="when" value="before:russiaCombatMove"/>
+      <option name="when" value="before:russiaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentAltayLLRussia2" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26346,6 +26349,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Murmansk:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentMurmanskLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26356,6 +26360,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Archangel:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentArchangelLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26366,6 +26371,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Iran:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternIranLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26376,6 +26382,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Soviet Far East:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSovietFarEastLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26386,6 +26393,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Soviet Far East:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSovietFarEastLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26396,6 +26404,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Murmansk:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentMurmanskLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26406,6 +26415,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Archangel:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentArchangelLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26416,6 +26426,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Iran:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternIranLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
