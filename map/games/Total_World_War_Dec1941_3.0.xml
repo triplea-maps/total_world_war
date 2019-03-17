@@ -35829,6 +35829,7 @@
             <unitPlacement unitType="Flagpole" territory="Sumatra" quantity="1" owner="ExiledAllies"/>
             <unitPlacement unitType="britishInfantry" territory="Sumatra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishMarine" territory="Sumatra" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishAntiAirGun" territory="Sumatra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Flagpole" territory="Surinam Guyana" quantity="1" owner="Britain"/>
             <unitPlacement unitType="russianInfantry" territory="Sverdlovsk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="Rail" territory="Sverdlovsk" quantity="1" owner="Russia"/>
