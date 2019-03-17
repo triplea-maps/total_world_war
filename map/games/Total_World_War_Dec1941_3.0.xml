@@ -2448,6 +2448,7 @@
       <step name="canadaEndTurn" delegate="endTurn" player="Canada">
         <stepProperty name="skipPosting" value="true"/>
       </step>
+      <step name="exiledalliesUserActions" delegate="userActions" player="ExiledAllies"/>
       <step name="exiledalliesPurchase" delegate="Purchase" player="ExiledAllies"/>
       <step name="exiledalliesPlace" delegate="place" player="ExiledAllies"/>
       <step name="exiledalliesEndTurn" delegate="endTurn" player="ExiledAllies">
@@ -20186,6 +20187,10 @@
       <option name="directPresenceTerritories" value="Vichy France" count="1"/>
       <option name="unitPresence" value="Occupation" count="1"/>
     </attachment>
+    <attachment name="conditionAttachmentVichyFranceLost" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceVichy"/>
+      <option name="invert" value="true"/>
+    </attachment>
     <attachment name="conditionAttachmentBritishDutch1EA" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Sumatra" count="1"/>
       <option name="unitPresence" value="Protectorate" count="1"/>
@@ -33835,14 +33840,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanBattleship"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKBattleship" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishBattleship"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyBattleship" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyBattleship"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyBattleship"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyBattleship:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanBattleship:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_BATTLESHIP"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyBattleship" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyBattleship"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyBattleship:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKBattleship:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_BATTLESHIP"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
     <attachment name="conditionAttachmentSZ44VichyCruiser" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichyCruiser" count="1"/>
@@ -33854,14 +33871,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanCruiser"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKCruiser" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishCruiser"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyCruiser" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyCruiser"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyCruiser"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyCruiser:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanCruiser:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_CRUISER"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyCruiser" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyCruiser"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyCruiser:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKCruiser:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_CRUISER"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment> 
     <attachment name="conditionAttachmentSZ44VichyDestroyer" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichyDestroyer" count="1"/>
@@ -33873,14 +33902,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanDestroyer"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKDestroyer" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishDestroyer"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyDestroyer" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyDestroyer"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyDestroyer"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyDestroyer:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanDestroyer:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_DESTROYER"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>    
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyDestroyer" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyDestroyer"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyDestroyer:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKDestroyer:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_DESTROYER"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
     <attachment name="conditionAttachmentSZ44VichySubmarine" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichySubmarine" count="1"/>
@@ -33892,14 +33933,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanSubmarine"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKSubmarine" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishSubmarine"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichySubmarine" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichySubmarine"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichySubmarine"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichySubmarine:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanSubmarine:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_SUBMARINE"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichySubmarine" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichySubmarine"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichySubmarine:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKSubmarine:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_SUBMARINE"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
     <attachment name="conditionAttachmentSZ44VichyTransport" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichyTransport" count="1"/>
@@ -33911,17 +33964,40 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanTransport"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKTransport" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishTransport"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyTransport" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyTransport"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyTransport"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyTransport:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanTransport:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_TRANSPORT"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
-    <attachment name="triggerAttachmentSZ44RemoveVichyShips" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost"/>
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyTransport" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyTransport"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyTransport:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKTransport:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_TRANSPORT"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
+    <attachment name="triggerAttachmentSZ44RemoveVichyShipsGermany" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy"/>
       <option name="when" value="after:germanyUserActions"/>     
+      <option name="uses" value="1"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyBattleship" count="99"/>     
+      <option name="removeUnits" value="44 Sea Zone:vichyBattleship-damaged" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyCruiser" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyDestroyer" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichySubmarine" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyTransport" count="99"/>
+    </attachment>
+    <attachment name="triggerAttachmentSZ44RemoveVichyShipsUK" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost"/>
+      <option name="when" value="after:exiledalliesUserActions"/>     
       <option name="uses" value="1"/>
       <option name="removeUnits" value="44 Sea Zone:vichyBattleship" count="99"/>     
       <option name="removeUnits" value="44 Sea Zone:vichyBattleship-damaged" count="99"/>
