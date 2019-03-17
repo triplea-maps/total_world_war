@@ -5897,8 +5897,8 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="Submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
     </attachment>
@@ -6056,7 +6056,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="spanishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -6300,7 +6300,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="swedishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -6544,7 +6544,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="turkishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -6788,7 +6788,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="brazilianSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8065,7 +8065,7 @@
 	</attachment>
     <attachment name="unitAttachment" attachTo="vichySubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8330,7 +8330,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="germanSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8340,7 +8340,7 @@
     <attachment name="unitAttachment" attachTo="germanAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="germanDocks:ResearchCenter"/>
@@ -8956,7 +8956,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="russianSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8965,7 +8965,7 @@
     <attachment name="unitAttachment" attachTo="russianAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="russianDocks:ResearchCenter"/>
@@ -9577,7 +9577,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="americanSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -9586,7 +9586,7 @@
     <attachment name="unitAttachment" attachTo="americanAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="americanDocks:ResearchCenter"/>
@@ -10197,7 +10197,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="italianSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -10206,7 +10206,7 @@
     <attachment name="unitAttachment" attachTo="italianAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="italianDocks:ResearchCenter"/>
@@ -10828,7 +10828,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -10838,7 +10838,7 @@
     <attachment name="unitAttachment" attachTo="japaneseAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="japaneseDocks:ResearchCenter"/>
@@ -11540,7 +11540,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="britishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -11550,7 +11550,7 @@
     <attachment name="unitAttachment" attachTo="britishAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="britishDocks:ResearchCenter"/>
@@ -12079,7 +12079,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="chineseSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -27181,7 +27181,8 @@
     <attachment name="triggerAttachmentgermanImpS" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedSubmarines"/>
       <option name="unitType" value="germanSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanAdvS" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28289,7 +28290,8 @@
     <attachment name="triggerAttachmentbritishImpS" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedSubmarines"/>
       <option name="unitType" value="britishSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAdvS" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29492,7 +29494,8 @@
     <attachment name="triggerAttachmentjapaneseImpS" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedSubmarines"/>
       <option name="unitType" value="japaneseSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAdvS" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30575,7 +30578,8 @@
     <attachment name="triggerAttachmentrussianImpS" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedSubmarines"/>
       <option name="unitType" value="russianSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAdvS" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31645,7 +31649,8 @@
     <attachment name="triggerAttachmentamericanImpS" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedSubmarines"/>
       <option name="unitType" value="americanSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAdvS" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -32685,7 +32690,8 @@
     <attachment name="triggerAttachmentitalianImpS" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianImprovedSubmarines"/>
       <option name="unitType" value="italianSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAdvS" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
