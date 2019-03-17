@@ -8377,7 +8377,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -9001,7 +9001,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -9622,7 +9622,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -10242,7 +10242,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -10875,7 +10875,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -11587,7 +11587,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -27192,7 +27192,7 @@
     <attachment name="triggerAttachmentgermanImpD" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedDestroyers"/>
       <option name="unitType" value="germanDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanAdvD" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28300,7 +28300,7 @@
     <attachment name="triggerAttachmentbritishImpD" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedDestroyers"/>
       <option name="unitType" value="britishDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAdvD" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29503,7 +29503,7 @@
     <attachment name="triggerAttachmentjapaneseImpD" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedDestroyers"/>
       <option name="unitType" value="japaneseDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAdvD" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30586,7 +30586,7 @@
     <attachment name="triggerAttachmentrussianImpD" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedDestroyers"/>
       <option name="unitType" value="russianDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAdvD" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31656,7 +31656,7 @@
     <attachment name="triggerAttachmentamericanImpD" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedDestroyers"/>
       <option name="unitType" value="americanDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAdvD" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -32696,7 +32696,7 @@
     <attachment name="triggerAttachmentitalianImpD" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianImprovedDestroyers"/>
       <option name="unitType" value="italianDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAdvD" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
