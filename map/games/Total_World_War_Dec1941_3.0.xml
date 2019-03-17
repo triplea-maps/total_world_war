@@ -25933,7 +25933,7 @@
     <attachment name="triggerAttachmentLLbTRS" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLbTRS"/>
       <option name="removeUnits" value="Soviet Far East:Truck"/>
-      <option name="when" value="before:russiaCombatMove"/>
+      <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTI" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLbTI"/>
