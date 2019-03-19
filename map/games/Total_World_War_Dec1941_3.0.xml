@@ -2448,6 +2448,7 @@
       <step name="canadaEndTurn" delegate="endTurn" player="Canada">
         <stepProperty name="skipPosting" value="true"/>
       </step>
+      <step name="exiledalliesUserActions" delegate="userActions" player="ExiledAllies"/>
       <step name="exiledalliesPurchase" delegate="Purchase" player="ExiledAllies"/>
       <step name="exiledalliesPlace" delegate="place" player="ExiledAllies"/>
       <step name="exiledalliesEndTurn" delegate="endTurn" player="ExiledAllies">
@@ -5897,8 +5898,8 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="Submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
-      <option name="defense" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
     </attachment>
@@ -6056,7 +6057,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="spanishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -6300,7 +6301,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="swedishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -6544,7 +6545,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="turkishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -6788,7 +6789,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="brazilianSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8065,7 +8066,7 @@
 	</attachment>
     <attachment name="unitAttachment" attachTo="vichySubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="0"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8230,7 +8231,7 @@
       <option name="isLandTransportable" value="true"/>
       <option name="canBeGivenByTerritoryTo" value="Germany"/>
       <option name="requiresUnits" value="germanBarracks"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Morrocco:Tunisia:West Africa:Nigeria:Gold Coast:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanAlpineInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -8241,7 +8242,7 @@
       <option name="canBeGivenByTerritoryTo" value="Germany"/>
       <option name="requiresUnits" value="germanBarracks"/>
       <option name="canInvadeOnlyFrom" value="none"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Nigeria:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanParatrooper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -8330,7 +8331,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="germanSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8340,7 +8341,7 @@
     <attachment name="unitAttachment" attachTo="germanAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="germanDocks:ResearchCenter"/>
@@ -8377,7 +8378,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -8596,7 +8597,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="germanAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -8861,7 +8862,7 @@
       <option name="transportCost" value="2"/>
       <option name="isLandTransportable" value="true"/>
       <option name="requiresUnits" value="russianBarracks"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Morrocco:Tunisia:West Africa:Nigeria:Gold Coast:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianAlpineInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -8871,7 +8872,7 @@
       <option name="isLandTransportable" value="true"/>
       <option name="requiresUnits" value="russianBarracks"/>
       <option name="canInvadeOnlyFrom" value="none"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Nigeria:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianParatrooper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -8956,7 +8957,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="russianSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -8965,7 +8966,7 @@
     <attachment name="unitAttachment" attachTo="russianAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="russianDocks:ResearchCenter"/>
@@ -9001,7 +9002,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -9218,7 +9219,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="russianAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -9482,7 +9483,7 @@
       <option name="transportCost" value="2"/>
       <option name="isLandTransportable" value="true"/>
       <option name="requiresUnits" value="americanBarracks"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Morrocco:Tunisia:West Africa:Nigeria:Gold Coast:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanAlpineInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -9492,7 +9493,7 @@
       <option name="isLandTransportable" value="true"/>
       <option name="requiresUnits" value="americanBarracks"/>
       <option name="canInvadeOnlyFrom" value="none"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Nigeria:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanParatrooper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -9577,7 +9578,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="americanSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -9586,7 +9587,7 @@
     <attachment name="unitAttachment" attachTo="americanAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="americanDocks:ResearchCenter"/>
@@ -9622,7 +9623,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -9839,7 +9840,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="americanAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -10103,7 +10104,7 @@
       <option name="transportCost" value="2"/>
       <option name="isLandTransportable" value="true"/>
       <option name="requiresUnits" value="italianBarracks"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Morrocco:Tunisia:West Africa:Nigeria:Gold Coast:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianAlpineInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -10113,7 +10114,7 @@
       <option name="isLandTransportable" value="true"/>
       <option name="requiresUnits" value="italianBarracks"/>
       <option name="canInvadeOnlyFrom" value="none"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Nigeria:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianParatrooper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -10197,7 +10198,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="italianSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -10206,7 +10207,7 @@
     <attachment name="unitAttachment" attachTo="italianAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="italianDocks:ResearchCenter"/>
@@ -10242,7 +10243,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -10459,7 +10460,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="italianAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -10728,7 +10729,7 @@
       <option name="isLandTransportable" value="true"/>
       <option name="canBeGivenByTerritoryTo" value="Japan"/>
       <option name="requiresUnits" value="japaneseBarracks"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Morrocco:Tunisia:West Africa:Nigeria:Gold Coast:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseAlpineInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -10739,7 +10740,7 @@
       <option name="canBeGivenByTerritoryTo" value="Japan"/>
       <option name="requiresUnits" value="japaneseBarracks"/>
       <option name="canInvadeOnlyFrom" value="none"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Nigeria:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseParatrooper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -10828,7 +10829,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -10838,7 +10839,7 @@
     <attachment name="unitAttachment" attachTo="japaneseAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="japaneseDocks:ResearchCenter"/>
@@ -10875,7 +10876,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -11094,7 +11095,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="japaneseAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -11439,7 +11440,7 @@
       <option name="isLandTransportable" value="true"/>
       <option name="canBeGivenByTerritoryTo" value="Britain"/>
       <option name="requiresUnits" value="britishBarracks"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Ontario:Quebec:Northern Central US:Chicago:Detroit:Eastern US:New York:Northeastern US:Washington:Eastern US:Southeastern US:Southern US:Florida Peninsula:Northern Mexico:Northwestern US:Western US:San Francisco:Los Angeles:British Columbia:Alaska:Hawaiian Islands:Eastern Mexico:Panama:Columbia:Venezuela:Rio de Janeiro:Argentina:Chile:Cape Town:Western South Africa:Eastern South Africa:Morrocco:Tunisia:West Africa:Nigeria:Gold Coast:Algeria:Tripolitania:Cairo:Turkey:Western Turkey:Ireland:Scotland:Central Britain:Southern Britain:London:Northern Spain:Western France:Northern France:Vichy France:Low Countries:Northern Germany:Denmark:Eastern Germany:Poland:Leningrad:Eastern Finland:Finland:Northern Finland:Northern Sweden:Sweden:Southern Sweden:Norway:Central Norway:Archangel:Northern Italy:Rome:Sardinia:Sicily:Southern Italy:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Eastern Ukraine:Caucasus:Southern Caucasus:Astrakhan:Western Kazahk:Northern Saudi Arabia:Southern Saudi Arabia:Bombay:Western Madras:Calcutta:Rangoon:Malay:Southern Thailand:Thailand:Saigon:French Indochina:Kwangtung:Hong Kong:Shanghai:Shantung:Peking:Manchuria:Korea:Eastern Manchuria:Vladivostok:Soviet Far East:Hokkaido:Japan:Tokyo:Kyushu Shikoku:Luzon:Phillippines:Brunei:Borneo:Sumatra:Java:Celebes:Dutch East Indies:Dutch New Guinea:Caroline Islands:Wake Island:Southwestern Australia:Southern Australia:Queensland:New South Wales:New Zealand"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishAlpineInfantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -11450,7 +11451,7 @@
       <option name="canBeGivenByTerritoryTo" value="Britain"/>
       <option name="requiresUnits" value="britishBarracks"/>
       <option name="canInvadeOnlyFrom" value="none"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Nigeria:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishParatrooper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -11540,7 +11541,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="britishSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -11550,7 +11551,7 @@
     <attachment name="unitAttachment" attachTo="britishAdvancedSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="attack" value="6"/>
-      <option name="defense" value="3"/>
+      <option name="defense" value="4"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
       <option name="requiresUnits" value="britishDocks:ResearchCenter"/>
@@ -11587,7 +11588,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishCruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -11811,7 +11812,7 @@
       <option name="maxAAattacks" value="1"/>
       <option name="maxRoundsAA" value="1"/>
       <option name="mayOverStackAA" value="true"/>
-      <option name="offensiveAttackAA" value="3"/>
+      <option name="offensiveAttackAA" value="4"/>
       <option name="attackAA" value="0"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="britishAirTransport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -12021,7 +12022,7 @@
       <option name="isLandTransportable" value="true"/>
       <option name="requiresUnits" value="chineseBarracks"/>
       <option name="canInvadeOnlyFrom" value="chineseTransport"/>
-      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
+      <option name="unitPlacementOnlyAllowedIn" value="Burma:Northern Finland:Manchuria:Quebec:Northern Mexico:Southwestern US:Southern Central US:Northwestern US:Western US:Eastern US:San Francisco:Los Angeles:British Columbia:Alaska:Eastern Mexico:Columbia:Venezuela:Rio de Janeiro:Chile:Western South Africa:Eastern South Africa:Nigeria:Tripolitania:Algeria:Madrid:Northern Spain:Vichy France:Scotland:Southern Germany:Austria:Northern Italy:Rome:Southern Italy:Sardinia:Sicily:Northern Yugoslavia:Southern Yugoslavia:Greece:Bulgaria:Romania:Norway:Central Norway:Western Turkey:Turkey:Southern Caucasus:Omsk:Novosibirsk:Soviet Far East:Hokkaido:Japan:Kyushu Shikoku:Hong Kong:Hupeh:Kweichow:Chungking:Kansu:Northern China:Tsinghai:Singkiang:Western Madras:Malay:Saigon:Sumatra:Java:Brunei:Phillippines:Luzon:New Zealand:Switzerland"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="chineseCombatEngineer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -12079,7 +12080,7 @@
     </attachment>
     <attachment name="unitAttachment" attachTo="chineseSubmarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
-      <option name="attack" value="4"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="isSea" value="true"/>
       <option name="isSub" value="true"/>
@@ -20186,6 +20187,10 @@
       <option name="directPresenceTerritories" value="Vichy France" count="1"/>
       <option name="unitPresence" value="Occupation" count="1"/>
     </attachment>
+    <attachment name="conditionAttachmentVichyFranceLost" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceVichy"/>
+      <option name="invert" value="true"/>
+    </attachment>
     <attachment name="conditionAttachmentBritishDutch1EA" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Sumatra" count="1"/>
       <option name="unitPresence" value="Protectorate" count="1"/>
@@ -23297,6 +23302,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Szechwan:China:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternSzechwanLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -23328,6 +23334,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Szechwan:China:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternSzechwanLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -23351,27 +23358,27 @@
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseFighter"/>
       <option name="unitProperty" value="isAir" count="true"/>
-      <option name="when" value="after:turkeyEndTurn"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc22" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseTacticalBomber"/>
       <option name="unitProperty" value="isAir" count="true"/>
       <option name="unitProperty" value="isStrategicBomber" count="true"/>
-      <option name="when" value="after:turkeyEndTurn"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc1b" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseFighter"/>
       <option name="unitProperty" value="isAir" count="false"/>
-      <option name="when" value="after:spainEndTurn"/>
+      <option name="when" value="after:chinaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc11b" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
       <option name="unitType" value="chineseTacticalBomber"/>
       <option name="unitProperty" value="isAir" count="false"/>
       <option name="unitProperty" value="isStrategicBomber" count="false"/>
-      <option name="when" value="after:spainEndTurn"/>
+      <option name="when" value="after:chinaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentchineseLLftc2b" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentDummyCondition"/>
@@ -23799,6 +23806,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Altay:China:Russia:false"/>
       <option name="when" value="before:russiaCombatMove"/>
+      <option name="when" value="before:russiaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentAltayLLRussia2" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -24231,12 +24239,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishNavalFighter" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabNFL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1"/>
       <option name="removeUnits" value="Labrador:americanNavalFighter" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabTBL1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1:conditionAttachmentLLabAP4"/>
@@ -24267,12 +24275,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishAirTransport" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabATL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1"/>
       <option name="removeUnits" value="Labrador:americanAirTransport" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLabLL" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP11:conditionAttachmentLLabAP111"/>
@@ -24296,12 +24304,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishNavalFighter" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquNFL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1"/>
       <option name="removeUnits" value="Queensland:americanNavalFighter" count="1"/>
-      <option name="when" value="after:usaEndTurn"/>
+      <option name="when" value="before:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquTBL1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1:conditionAttachmentLLquAP4"/>
@@ -24332,12 +24340,12 @@
       <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishAirTransport" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquATL2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1"/>
       <option name="removeUnits" value="Queensland:americanAirTransport" count="1"/>
-      <option name="when" value="before:turkeyCombatMove"/>
+      <option name="when" value="after:usaEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLquLL" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP11:conditionAttachmentLLquAP111"/>
@@ -25930,7 +25938,7 @@
     <attachment name="triggerAttachmentLLbTRS" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLbTRS"/>
       <option name="removeUnits" value="Soviet Far East:Truck"/>
-      <option name="when" value="before:russiaCombatMove"/>
+      <option name="when" value="before:britainEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentLLbTI" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLbTI"/>
@@ -26346,6 +26354,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Murmansk:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentMurmanskLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26356,6 +26365,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Archangel:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentArchangelLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26366,6 +26376,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Iran:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternIranLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26376,6 +26387,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Soviet Far East:Russia:Britain:false"/>
       <option name="when" value="before:britainCombatMove"/>
+      <option name="when" value="before:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSovietFarEastLLBritain2" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26386,6 +26398,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Soviet Far East:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSovietFarEastLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26396,6 +26409,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Murmansk:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentMurmanskLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26406,6 +26420,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Archangel:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentArchangelLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26416,6 +26431,7 @@
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
       <option name="changeOwnership" value="Eastern Iran:Russia:Usa:false"/>
       <option name="when" value="before:usaCombatMove"/>
+      <option name="when" value="before:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentEasternIranLLUsa2" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentDummyCondition"/>
@@ -26951,7 +26967,7 @@
     <attachment name="triggerAttachmentgermanImpSB1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedStrategicBombers"/>
       <option name="unitType" value="germanStrategicBomber"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanAdvSB" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -27170,7 +27186,8 @@
     <attachment name="triggerAttachmentgermanImpS" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedSubmarines"/>
       <option name="unitType" value="germanSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanAdvS" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -27181,7 +27198,7 @@
     <attachment name="triggerAttachmentgermanImpD" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanImprovedDestroyers"/>
       <option name="unitType" value="germanDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanAdvD" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28036,7 +28053,7 @@
     <attachment name="triggerAttachmentbritishImpSB1" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedStrategicBombers"/>
       <option name="unitType" value="britishStrategicBomber"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAdvSB" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28278,7 +28295,8 @@
     <attachment name="triggerAttachmentbritishImpS" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedSubmarines"/>
       <option name="unitType" value="britishSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAdvS" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -28289,7 +28307,7 @@
     <attachment name="triggerAttachmentbritishImpD" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishImprovedDestroyers"/>
       <option name="unitType" value="britishDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAdvD" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29262,7 +29280,7 @@
     <attachment name="triggerAttachmentjapaneseImpSB1" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedStrategicBombers"/>
       <option name="unitType" value="japaneseStrategicBomber"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAdvSB" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29481,7 +29499,8 @@
     <attachment name="triggerAttachmentjapaneseImpS" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedSubmarines"/>
       <option name="unitType" value="japaneseSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAdvS" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -29492,7 +29511,7 @@
     <attachment name="triggerAttachmentjapaneseImpD" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseImprovedDestroyers"/>
       <option name="unitType" value="japaneseDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseAdvD" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30322,7 +30341,7 @@
     <attachment name="triggerAttachmentrussianImpSB1" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedStrategicBombers"/>
       <option name="unitType" value="russianStrategicBomber"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAdvSB" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30564,7 +30583,8 @@
     <attachment name="triggerAttachmentrussianImpS" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedSubmarines"/>
       <option name="unitType" value="russianSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAdvS" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -30575,7 +30595,7 @@
     <attachment name="triggerAttachmentrussianImpD" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianImprovedDestroyers"/>
       <option name="unitType" value="russianDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAdvD" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31392,7 +31412,7 @@
     <attachment name="triggerAttachmentamericanImpSB1" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedStrategicBombers"/>
       <option name="unitType" value="americanStrategicBomber"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAdvSB" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31634,7 +31654,8 @@
     <attachment name="triggerAttachmentamericanImpS" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedSubmarines"/>
       <option name="unitType" value="americanSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAdvS" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -31645,7 +31666,7 @@
     <attachment name="triggerAttachmentamericanImpD" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanImprovedDestroyers"/>
       <option name="unitType" value="americanDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAdvD" attachTo="Usa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -32455,7 +32476,7 @@
     <attachment name="triggerAttachmentitalianImpSB1" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianImprovedStrategicBombers"/>
       <option name="unitType" value="italianStrategicBomber"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAdvSB" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -32674,7 +32695,8 @@
     <attachment name="triggerAttachmentitalianImpS" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianImprovedSubmarines"/>
       <option name="unitType" value="italianSubmarine"/>
-      <option name="unitProperty" value="attack" count="5"/>
+      <option name="unitProperty" value="attack" count="4"/>
+      <option name="unitProperty" value="defense" count="2"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAdvS" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -32685,7 +32707,7 @@
     <attachment name="triggerAttachmentitalianImpD" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianImprovedDestroyers"/>
       <option name="unitType" value="italianDestroyer"/>
-      <option name="unitProperty" value="offensiveAttackAA" count="2"/>
+      <option name="unitProperty" value="offensiveAttackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianAdvD" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -33818,14 +33840,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanBattleship"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKBattleship" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishBattleship"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyBattleship" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyBattleship"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyBattleship"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyBattleship:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanBattleship:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_BATTLESHIP"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyBattleship" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyBattleship"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyBattleship:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKBattleship:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_BATTLESHIP"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
     <attachment name="conditionAttachmentSZ44VichyCruiser" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichyCruiser" count="1"/>
@@ -33837,14 +33871,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanCruiser"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKCruiser" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishCruiser"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyCruiser" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyCruiser"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyCruiser"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyCruiser:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanCruiser:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_CRUISER"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyCruiser" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyCruiser"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyCruiser:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKCruiser:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_CRUISER"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment> 
     <attachment name="conditionAttachmentSZ44VichyDestroyer" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichyDestroyer" count="1"/>
@@ -33856,14 +33902,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanDestroyer"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKDestroyer" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishDestroyer"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyDestroyer" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyDestroyer"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyDestroyer"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyDestroyer:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanDestroyer:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_DESTROYER"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>    
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyDestroyer" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyDestroyer"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyDestroyer:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKDestroyer:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_DESTROYER"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
     <attachment name="conditionAttachmentSZ44VichySubmarine" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichySubmarine" count="1"/>
@@ -33875,14 +33933,26 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanSubmarine"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKSubmarine" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishSubmarine"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichySubmarine" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichySubmarine"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichySubmarine"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichySubmarine:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanSubmarine:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_SUBMARINE"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichySubmarine" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichySubmarine"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichySubmarine:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKSubmarine:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_SUBMARINE"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
     <attachment name="conditionAttachmentSZ44VichyTransport" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="44 Sea Zone" count="1"/>
       <option name="unitPresence" value="vichyTransport" count="1"/>
@@ -33894,17 +33964,40 @@
       <option name="chance" value="2:12"/>
       <option name="placement" value="44 Sea Zone:germanTransport"/>
     </attachment>
+    <attachment name="triggerAttachmentSZ44PlaceUKTransport" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="chance" value="2:12"/>
+      <option name="placement" value="44 Sea Zone:britishTransport"/>
+    </attachment>
     <attachment name="userActionAttachmentGermanySaveVichyTransport" attachTo="Germany" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSZ44VichyTransport"/>
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy:conditionAttachmentSZ44VichyTransport"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyTransport:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentSZ44PlaceGermanTransport:1:false:false:false:true"/>
       <option name="text" value="GERMANS_SAVE_TRANSPORT"/>     
       <option name="costResources" value="1:PUs"/>
       <option name="attemptsPerTurn" value="99"/>
-    </attachment>   
-    <attachment name="triggerAttachmentSZ44RemoveVichyShips" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyProtectorateLost"/>
+    </attachment>
+    <attachment name="userActionAttachmentUKSaveVichyTransport" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost:conditionAttachmentSZ44VichyTransport"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44RemoveVichyTransport:1:false:false:false:false"/>
+      <option name="activateTrigger" value="triggerAttachmentSZ44PlaceUKTransport:1:false:false:false:true"/>
+      <option name="text" value="GERMANS_SAVE_TRANSPORT"/>     
+      <option name="costResources" value="1:PUs"/>
+      <option name="attemptsPerTurn" value="99"/>
+    </attachment>
+    <attachment name="triggerAttachmentSZ44RemoveVichyShipsGermany" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentVichyFranceVichy"/>
       <option name="when" value="after:germanyUserActions"/>     
+      <option name="uses" value="1"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyBattleship" count="99"/>     
+      <option name="removeUnits" value="44 Sea Zone:vichyBattleship-damaged" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyCruiser" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyDestroyer" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichySubmarine" count="99"/>
+      <option name="removeUnits" value="44 Sea Zone:vichyTransport" count="99"/>
+    </attachment>
+    <attachment name="triggerAttachmentSZ44RemoveVichyShipsUK" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyFranceLost"/>
+      <option name="when" value="after:exiledalliesUserActions"/>     
       <option name="uses" value="1"/>
       <option name="removeUnits" value="44 Sea Zone:vichyBattleship" count="99"/>     
       <option name="removeUnits" value="44 Sea Zone:vichyBattleship-damaged" count="99"/>
@@ -34219,6 +34312,7 @@
             <unitPlacement unitType="britishBattleship" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishTransport" territory="10 Sea Zone" quantity="2" owner="Britain"/>
             <unitPlacement unitType="britishCruiser" territory="10 Sea Zone" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishSubmarine" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishDestroyer" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCarrier" territory="10 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishNavalFighter" territory="10 Sea Zone" quantity="1" owner="Britain"/>
@@ -34267,7 +34361,6 @@
             <unitPlacement unitType="britishDestroyer" territory="148 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCruiser" territory="148 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCarrier" territory="148 Sea Zone" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="britishNavalFighter" territory="148 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="russianTransport" territory="15 Sea Zone" quantity="1" owner="Russia"/>
             <unitPlacement unitType="russianDestroyer" territory="15 Sea Zone" quantity="1" owner="Russia"/>
             <unitPlacement unitType="britishDestroyer" territory="151 Sea Zone" quantity="1" owner="Britain"/>
@@ -34342,7 +34435,6 @@
             <unitPlacement unitType="brazilianSubmarine" territory="65 Sea Zone" quantity="1" owner="Brazil"/>
             <unitPlacement unitType="brazilianDestroyer" territory="65 Sea Zone" quantity="1" owner="Brazil"/>
             <unitPlacement unitType="britishHull" territory="7 Sea Zone" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="britishSubmarine" territory="7 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishDestroyer" territory="7 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishTransport" territory="75 Sea Zone" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishSubmarine" territory="75 Sea Zone" quantity="1" owner="Britain"/>
@@ -34857,7 +34949,6 @@
             <unitPlacement unitType="americanAntiAirGun" territory="Florida Peninsula" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanInfantry" territory="Florida Peninsula" quantity="1" owner="Usa"/>
             <unitPlacement unitType="Flagpole" territory="Florida Peninsula" quantity="1" owner="Usa"/>
-            <unitPlacement unitType="americanNavalFighter" territory="Florida Peninsula" quantity="1" owner="Usa"/>
             <unitPlacement unitType="chineseInfantry" territory="Fo Kien" quantity="2" owner="China"/>
             <unitPlacement unitType="chineseAirfield" territory="Fo Kien" quantity="1" owner="China"/>
             <unitPlacement unitType="Flagpole" territory="Fo Kien" quantity="1" owner="China"/>
@@ -35019,6 +35110,7 @@
             <unitPlacement unitType="britishInfantry" territory="Java" quantity="2" owner="Britain"/>
             <unitPlacement unitType="britishAntiAirGun" territory="Java" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishCombatEngineer" territory="Java" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishNavalFighter" territory="Java" quantity="1" owner="Britain"/>
             <unitPlacement unitType="americanAirfield" territory="Johnston Island" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanInfantry" territory="Johnston Island" quantity="1" owner="Usa"/>
             <unitPlacement unitType="Flagpole" territory="Johnston Island" quantity="1" owner="Usa"/>
@@ -35475,6 +35567,7 @@
             <unitPlacement unitType="Flagpole" territory="Papua" quantity="1" owner="Australia"/>
             <unitPlacement unitType="britishInfantry" territory="Papua" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishAirfield" territory="Papua" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishAntiAirGun" territory="Papua" quantity="1" owner="Britain"/>
             <unitPlacement unitType="germanAntiAirGun" territory="Paris" quantity="1" owner="Germany"/>
             <unitPlacement unitType="germanAirfield" territory="Paris" quantity="1" owner="Germany"/>
             <unitPlacement unitType="germanCombatEngineer" territory="Paris" quantity="1" owner="Germany"/>
@@ -35812,6 +35905,7 @@
             <unitPlacement unitType="Flagpole" territory="Sumatra" quantity="1" owner="ExiledAllies"/>
             <unitPlacement unitType="britishInfantry" territory="Sumatra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="britishMarine" territory="Sumatra" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="britishAntiAirGun" territory="Sumatra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Flagpole" territory="Surinam Guyana" quantity="1" owner="Britain"/>
             <unitPlacement unitType="russianInfantry" territory="Sverdlovsk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="Rail" territory="Sverdlovsk" quantity="1" owner="Russia"/>
@@ -35994,6 +36088,7 @@
             <unitPlacement unitType="Rail" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanAirfield" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="americanArtillery" territory="Eastern US" quantity="1" owner="Usa"/>
+            <unitPlacement unitType="americanNavalFighter" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="Flagpole" territory="Eastern US" quantity="1" owner="Usa"/>
             <unitPlacement unitType="UnitsForExiledAllies" territory="West Africa" quantity="1" owner="Germany"/>
             <unitPlacement unitType="germanAirfield" territory="West Africa" quantity="1" owner="VichyFrance"/>
