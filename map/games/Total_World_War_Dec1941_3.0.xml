@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Total World War: December 1941 3.0" version="3.0.0.3"/>
+  <info name="Total World War: December 1941 3.0" version="3.0.0.4"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.9"/>
   <diceSides value="12"/>
@@ -20188,7 +20188,7 @@
       <option name="unitPresence" value="Occupation" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentVichyFranceLost" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="conditions" value="conditionAttachmentVichyFranceVichy"/>
+      <option name="directOwnershipTerritories" value="Vichy France" count="1"/>
       <option name="invert" value="true"/>
     </attachment>
     <attachment name="conditionAttachmentBritishDutch1EA" attachTo="ExiledAllies" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
