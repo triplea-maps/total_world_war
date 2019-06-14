@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Total World War: December 1941 3.0" version="3.0.0.4"/>
+  <info name="Total World War: December 1941 3.0" version="3.0.0.5"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.9"/>
   <diceSides value="12"/>
@@ -20348,7 +20348,7 @@
     <attachment name="conditionAttachmentMorroccoVichyAircraftPlant" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Morrocco" count="1"/>
       <option name="unitPresence" value="germanAircraftPlant" count="1"/>
-    </attachment>   
+    </attachment>
     <attachment name="conditionAttachmentAlgeriaVichyBarracks" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Algeria" count="1"/>
       <option name="unitPresence" value="germanBarracks" count="1"/>
@@ -20364,7 +20364,7 @@
     <attachment name="conditionAttachmentAlgeriaVichyAircraftPlant" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Algeria" count="1"/>
       <option name="unitPresence" value="germanAircraftPlant" count="1"/>
-    </attachment>    
+    </attachment>
     <attachment name="conditionAttachmentTunisiaVichyBarracks" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Tunisia" count="1"/>
       <option name="unitPresence" value="germanBarracks" count="1"/>
@@ -20380,6 +20380,26 @@
     <attachment name="conditionAttachmentTunisiaVichyAircraftPlant" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="Tunisia" count="1"/>
       <option name="unitPresence" value="germanAircraftPlant" count="1"/>
+    </attachment>
+    <attachment name="conditionAttachmentMorroccoVichyFlagpole" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="directPresenceTerritories" value="Morrocco" count="1"/>
+      <option name="unitPresence" value="Flagpole" count="1"/>
+    </attachment>
+    <attachment name="conditionAttachmentAlgeriaVichyFlagpole" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="directPresenceTerritories" value="Algeria" count="1"/>
+      <option name="unitPresence" value="Flagpole" count="1"/>
+    </attachment>
+    <attachment name="conditionAttachmentTunisiaVichyFlagpole" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="directPresenceTerritories" value="Tunisia" count="1"/>
+      <option name="unitPresence" value="Flagpole" count="1"/>
+    </attachment>
+    <attachment name="conditionAttachmentSouthwesternAlgeriaVichyFlagpole" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="directPresenceTerritories" value="Southwestern Algeria" count="1"/>
+      <option name="unitPresence" value="Flagpole" count="1"/>
+    </attachment>
+    <attachment name="conditionAttachmentSouthernAlgeriaVichyFlagpole" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="directPresenceTerritories" value="Southern Algeria" count="1"/>
+      <option name="unitPresence" value="Flagpole" count="1"/>
     </attachment>
        
     <!-- Territory Ownership Conditions -->
@@ -24420,7 +24440,97 @@
       <option name="when" value="after:chinaBattle"/>
       <option name="when" value="after:britainBattle"/>
       <option name="when" value="after:usaBattle"/>
-    </attachment>   
+    </attachment>
+    <attachment name="triggerAttachmentMorroccoVichyFlagpole1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentMorroccoVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="placement" value="Morrocco:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentMorroccoVichyFlagpole2" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentMorroccoVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="removeUnits" value="Morrocco:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentAlgeriaVichyFlagpole1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentAlgeriaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="placement" value="Algeria:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentAlgeriaVichyFlagpole2" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentAlgeriaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="removeUnits" value="Algeria:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentTunisiaVichyFlagpole1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentTunisiaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="placement" value="Tunisia:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentTunisiaVichyFlagpole2" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentTunisiaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="removeUnits" value="Tunisia:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentSouthwesternAlgeriaVichyFlagpole1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSouthwesternAlgeriaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="placement" value="Southwestern Algeria:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentSouthwesternAlgeriaVichyFlagpole2" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSouthwesternAlgeriaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="removeUnits" value="Southwestern Algeria:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentSouthernAlgeriaVichyFlagpole1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSouthernAlgeriaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="placement" value="Southern Algeria:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
+    <attachment name="triggerAttachmentSouthernAlgeriaVichyFlagpole2" attachTo="VichyFrance" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentSouthernAlgeriaVichyFlagpole"/>
+      <option name="uses" value="1"/>
+      <option name="removeUnits" value="Southern Algeria:Flagpole"/>
+      <option name="when" value="after:russiaBattle"/>
+      <option name="when" value="after:chinaBattle"/>
+      <option name="when" value="after:britainBattle"/>
+      <option name="when" value="after:usaBattle"/>
+    </attachment>
     <attachment name="triggerAttachmentMorroccoVichyBarracks1" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentVichyProtectorateLost:conditionAttachmentMorroccoVichyBarracks"/>
       <option name="uses" value="1"/>
