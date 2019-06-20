@@ -23297,7 +23297,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLaFPESC" attachTo="China" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLaFPESC:conditionAttachmentLLaTBnESC"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Eastern Szechwan:chineseFighter"/>
       <option name="when" value="after:usaNonCombatMove"/>
     </attachment>
@@ -23329,7 +23328,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLbFPESC" attachTo="China" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLbFPESC:conditionAttachmentLLbTBnESC"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Eastern Szechwan:chineseFighter"/>
       <option name="when" value="after:britainNonCombatMove"/>
     </attachment>
@@ -24237,7 +24235,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLabFL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1:conditionAttachmentLLabAP2"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishFighter" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
       <option name="when" value="after:usaNonCombatMove"/>
@@ -24249,7 +24246,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLabNFL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1:conditionAttachmentLLabAP3"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishNavalFighter" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
       <option name="when" value="before:usaEndTurn"/>
@@ -24261,7 +24257,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLabTBL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1:conditionAttachmentLLabAP4"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishTacticalBomber" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
       <option name="when" value="after:usaPlace"/>
@@ -24273,7 +24268,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLabSBL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1:conditionAttachmentLLabAP5"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishStrategicBomber" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
       <option name="when" value="after:usaPurchase"/>
@@ -24285,7 +24279,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLabATL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLabAP1:conditionAttachmentLLabAP6"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Labrador:britishAirTransport" count="1"/>
       <option name="removeUnits" value="Labrador:Pg" count="1"/>
       <option name="when" value="after:usaEndTurn"/>
@@ -24302,7 +24295,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLquFL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1:conditionAttachmentLLquAP2"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishFighter" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
       <option name="when" value="after:usaNonCombatMove"/>
@@ -24314,7 +24306,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLquNFL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1:conditionAttachmentLLquAP3"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishNavalFighter" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
       <option name="when" value="before:usaEndTurn"/>
@@ -24326,7 +24317,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLquTBL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1:conditionAttachmentLLquAP4"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishTacticalBomber" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
       <option name="when" value="after:usaPlace"/>
@@ -24338,7 +24328,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLquSBL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1:conditionAttachmentLLquAP5"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishStrategicBomber" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
       <option name="when" value="after:usaPurchase"/>
@@ -24350,7 +24339,6 @@
     </attachment>
     <attachment name="triggerAttachmentLLquATL1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLLquAP1:conditionAttachmentLLquAP6"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Queensland:britishAirTransport" count="1"/>
       <option name="removeUnits" value="Queensland:Pg" count="1"/>
       <option name="when" value="after:usaEndTurn"/>
@@ -24743,7 +24731,6 @@
 
     <attachment name="triggerAttachmentChungkinglost1" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentChungkinglost:conditionAttachmentNorthernChinalost"/>
-      <option name="conditionType" value="AND"/>
       <option name="uses" value="1"/>
       <option name="players" value="Russia"/>
       <option name="relationshipChange" value="China:Russia:Cooperative:Allied"/>
@@ -24751,7 +24738,6 @@
     </attachment>
     <attachment name="triggerAttachmentChungkinglost2" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentChungkinglost:conditionAttachmentNorthernChinalost"/>
-      <option name="conditionType" value="AND"/>
       <option name="uses" value="1"/>
       <option name="players" value="Usa"/>
       <option name="relationshipChange" value="China:Usa:Cooperative:Allied"/>
@@ -24759,7 +24745,6 @@
     </attachment>
     <attachment name="triggerAttachmentChungkinglost3" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentChungkinglost:conditionAttachmentNorthernChinalost"/>
-      <option name="conditionType" value="AND"/>
       <option name="uses" value="1"/>
       <option name="players" value="Britain"/>
       <option name="relationshipChange" value="Britain:China:Cooperative:Allied"/>
@@ -24785,7 +24770,6 @@
     </attachment>
     <attachment name="triggerAttachmentRussiaBad1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLeningradlost:conditionAttachmentStalingradlost:conditionAttachmentNovosibirsklost"/>
-      <option name="conditionType" value="AND"/>
       <option name="uses" value="1"/>
       <option name="players" value="Britain"/>
       <option name="relationshipChange" value="Britain:Russia:Cooperative:Allied"/>
@@ -24806,7 +24790,6 @@
     </attachment>
     <attachment name="triggerAttachmentRussiaBad2" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentLeningradlost:conditionAttachmentStalingradlost:conditionAttachmentNovosibirsklost"/>
-      <option name="conditionType" value="AND"/>
       <option name="uses" value="1"/>
       <option name="players" value="Usa"/>
       <option name="relationshipChange" value="Usa:Russia:Cooperative:Allied"/>
@@ -24814,280 +24797,240 @@
     </attachment>
     <attachment name="triggerAttachmentTokyo" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTokyolost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Tokyo"/>
       <option name="when" value="before:japanTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentTokyo1" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTokyolost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Tokyo"/>
       <option name="when" value="before:usaNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentBerlin" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentBerlinlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Berlin"/>
       <option name="when" value="before:germanyTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentBerlin1" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentBerlinlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Berlin"/>
       <option name="when" value="before:russiaNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentLondon" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentLondonlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="London"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentLondon1" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentLondonlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="London"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentWashington" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentWashingtonlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Washington"/>
       <option name="when" value="before:usaTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentWashington1" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentWashingtonlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Washington"/>
       <option name="when" value="before:japanTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentRome" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentRomelost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Rome"/>
       <option name="when" value="before:italyTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentRome1" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentRomelost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Rome"/>
       <option name="when" value="before:usaNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentParis" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentParis:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Paris"/>
       <option name="when" value="before:germanyTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentParis1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentParis:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Paris"/>
       <option name="when" value="before:britainNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentMoscow" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentMoscowlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Moscow"/>
       <option name="when" value="before:russiaTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentMoscow1" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentMoscowlost:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Moscow"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentCrimea" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentCrimea:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Crimea"/>
       <option name="when" value="before:russiaTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentCrimea1" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentCrimea:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Crimea"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentEfcollapse" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentEfcollapse:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Efcollapse"/>
       <option name="when" value="before:germanyTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentEfcollapse1" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentEfcollapse:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Efcollapse"/>
       <option name="when" value="before:russiaNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentSubs" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSubs:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Subs"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentSubs1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSubs:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Subs"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentPearl" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentPearl:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Pearl"/>
       <option name="when" value="before:japanNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentPearl1" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentPearl1:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Pearl"/>
       <option name="when" value="before:usaCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentWinter" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentWinter:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Winter"/>
       <option name="when" value="before:russiaNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentWinter1" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentWinter:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Winter"/>
       <option name="when" value="before:germanyTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentTobruk" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTobruk:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Tobruk"/>
       <option name="when" value="before:italyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentTobruk1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTobruk:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Tobruk"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentStalingrad" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentStalingrad:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Stalingrad"/>
       <option name="when" value="before:russiaTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentStalingrad1" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentStalingrad:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Stalingrad"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentLeningrad" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentLeningrad1:conditionAttachmentLeningrad2:conditionAttachmentLeningrad3:conditionAttachmentLeningrad4:conditionAttachmentLeningrad5:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Leningrad"/>
       <option name="when" value="before:russiaTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentLeningrad1" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentLeningrad1:conditionAttachmentLeningrad2:conditionAttachmentLeningrad3:conditionAttachmentLeningrad4:conditionAttachmentLeningrad5:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Leningrad"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentJapanSingapore" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanSingapore:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Singapore"/>
       <option name="when" value="before:japanNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentJapanSingapore1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanSingapore:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Singapore"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentPhillippines" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanPhillippines:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Phillippines"/>
       <option name="when" value="before:japanNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentPhillippines1" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanPhillippines:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Phillippines"/>
       <option name="when" value="before:usaTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentTorch1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentMorrocco3:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="OperationTorch"/>
       <option name="when" value="before:britainNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentTorch2" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentMorrocco3:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="OperationTorch"/>
       <option name="when" value="before:usaNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentTorch3" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentMorrocco3:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="OperationTorch"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentOverlord1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentNFrance3:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Overlord"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentOverlord2" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentNFrance3:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Overlord"/>
       <option name="when" value="before:usaTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentOverlord3" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentNFrance3:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="Overlord"/>
       <option name="when" value="before:germanyNonCombatMove"/>
       <option name="uses" value="1"/>
@@ -25197,56 +25140,48 @@
     </attachment>
     <attachment name="triggerAttachmentAtlanticWall" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentAtlanticWall:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="AtlanticWall"/>
       <option name="when" value="before:germanyTechActivation"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentAtlanticWall1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentAtlanticWall:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="AtlanticWall"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentJapanDutchColonies" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanDutchColonies:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="DutchColonies"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentJapanDutchColonies1" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanDutchColonies:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="DutchColonies"/>
       <option name="when" value="before:japanNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentRafBomb" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentRafBomb:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="RafBomb"/>
       <option name="when" value="before:germanTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentRafBomb1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentRafBomb:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="RafBomb"/>
       <option name="when" value="before:britainNonCombatMove"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentJapanHongKong" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanHongKong:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="HongKong"/>
       <option name="when" value="before:britainTech"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentJapanHongKong1" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentJapanHongKong:conditionAttachmentNoNotifications"/>
-      <option name="conditionType" value="AND"/>
       <option name="notification" value="HongKong"/>
       <option name="when" value="before:japanNonCombatMove"/>
       <option name="uses" value="1"/>
@@ -25459,168 +25394,144 @@
     </attachment>
     <attachment name="triggerAttachmentSpainSwedenWar" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAxisWar:conditionAttachmentSwedenAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Sweden:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainTurkeyWar" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAxisWar:conditionAttachmentTurkeyAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Turkey:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainBrazilWar" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAxisWar:conditionAttachmentBrazilAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Brazil:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenTurkeyWar" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAxisWar:conditionAttachmentTurkeyAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Turkey:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenBrazilWar" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAxisWar:conditionAttachmentBrazilAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Brazil:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentTurkeyBrazilWar" attachTo="Turkey" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTurkeyAxisWar:conditionAttachmentBrazilAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Turkey:Brazil:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:turkeyCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainSwedenWar2" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAlliesWar:conditionAttachmentSwedenAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Sweden:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainTurkeyWar2" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAlliesWar:conditionAttachmentTurkeyAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Turkey:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainBrazilWar2" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAlliesWar:conditionAttachmentBrazilAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Brazil:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenTurkeyWar2" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAlliesWar:conditionAttachmentTurkeyAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Turkey:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenBrazilWar2" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAlliesWar:conditionAttachmentBrazilAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Brazil:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentTurkeyBrazilWar2" attachTo="Turkey" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTurkeyAlliesWar:conditionAttachmentBrazilAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Turkey:Brazil:Neutral:War"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:turkeyCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainSwedenAllied" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAlliesWar:conditionAttachmentSwedenAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Sweden:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainTurkeyAllied" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAlliesWar:conditionAttachmentTurkeyAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Turkey:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainBrazilAllied" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAlliesWar:conditionAttachmentBrazilAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Brazil:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenTurkeyAllied" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAlliesWar:conditionAttachmentTurkeyAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Turkey:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenBrazilAllied" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAlliesWar:conditionAttachmentBrazilAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Brazil:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentTurkeyBrazilAllied" attachTo="Turkey" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTurkeyAlliesWar:conditionAttachmentBrazilAlliesWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Turkey:Brazil:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:turkeyCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainSwedenAllied2" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAxisWar:conditionAttachmentSwedenAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Sweden:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainTurkeyAllied2" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAxisWar:conditionAttachmentTurkeyAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Turkey:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSpainBrazilAllied2" attachTo="Spain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSpainAxisWar:conditionAttachmentBrazilAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Spain:Brazil:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:spainCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenTurkeyAllied2" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAxisWar:conditionAttachmentTurkeyAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Turkey:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentSwedenBrazilAllied2" attachTo="Sweden" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentSwedenAxisWar:conditionAttachmentBrazilAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Sweden:Brazil:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:swedenCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentTurkeyBrazilAllied2" attachTo="Turkey" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentTurkeyAxisWar:conditionAttachmentBrazilAxisWar"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Turkey:Brazil:Neutral:Allied"/>
       <option name="uses" value="1"/>
       <option name="when" value="before:turkeyCombatMove"/>
@@ -26548,13 +26459,11 @@
     </attachment>
     <attachment name="triggerAttachmentgermanaTIM" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanImprovedTanks:conditionAttachmentgermanSpecialWarfare"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedMechanization:ImprovedMechanization"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanaTSPA" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanImprovedTanks:conditionAttachmentgermanImprovedArtillery"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="SelfPropelledArtillery:SelfPropelledArtillery"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -26590,13 +26499,11 @@
     </attachment>
     <attachment name="triggerAttachmentgermanaTIDS" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanProduction:conditionAttachmentgermanLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedDefensiveStructures:ImprovedDefensiveStructures"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanaTAP" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanImprovedDefensiveStructures:conditionAttachmentgermanImprovedProduction"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedProduction:AdvancedProduction"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -26612,7 +26519,6 @@
     </attachment>
     <attachment name="triggerAttachmentgermanaTAL" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanImprovedDefensiveStructures:conditionAttachmentgermanImprovedLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedLogistics:AdvancedLogistics"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -26648,13 +26554,11 @@
     </attachment>
     <attachment name="triggerAttachmentgermanaTDB" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanAdvancedDestroyers:conditionAttachmentgermanAdvancedGunLaying"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="DestroyerBombardement:DestroyerBombardement"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentgermanaTAC" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanImprovedCarriers:conditionAttachmentgermanAdvancedHulls"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedCarriers:AdvancedCarriers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -26680,7 +26584,6 @@
     </attachment>
     <attachment name="triggerAttachmentgermanaTAF" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanImprovedTacticalBombers:conditionAttachmentgermanIncreasedFighterRange"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedFighters:AdvancedFighters"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -26691,7 +26594,6 @@
     </attachment>
     <attachment name="triggerAttachmentgermanaTATB" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentgermanIncreasedTacticalBomberRange:conditionAttachmentgermanImprovedTacticalBombers"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedTacticalBombers:AdvancedTacticalBombers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -27429,7 +27331,6 @@
     </attachment>
     <attachment name="triggerAttachmentgermanProd" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanProduction:conditionAttachmentBerlinnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Berlin:Material" count="1"/>
       <option name="when" value="after:germanyNonCombatMove"/>
     </attachment>
@@ -27450,7 +27351,6 @@
     </attachment>
     <attachment name="triggerAttachmentgermanAP2" attachTo="Germany" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentgermanAdvancedProduction:conditionAttachmentBerlinnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Berlin:Material" count="1"/>
       <option name="when" value="after:germanyNonCombatMove"/>
     </attachment>
@@ -27627,13 +27527,11 @@
     </attachment>
     <attachment name="triggerAttachmentbritishaTIM" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishImprovedTanks:conditionAttachmentbritishSpecialWarfare"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedMechanization:ImprovedMechanization"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishaTSPA" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishImprovedTanks:conditionAttachmentbritishImprovedArtillery"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="SelfPropelledArtillery:SelfPropelledArtillery"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -27669,13 +27567,11 @@
     </attachment>
     <attachment name="triggerAttachmentbritishaTIDS" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishProduction:conditionAttachmentbritishLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedDefensiveStructures:ImprovedDefensiveStructures"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishaTAP" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishImprovedDefensiveStructures:conditionAttachmentbritishImprovedProduction"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedProduction:AdvancedProduction"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -27691,7 +27587,6 @@
     </attachment>
     <attachment name="triggerAttachmentbritishaTAL" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishImprovedDefensiveStructures:conditionAttachmentbritishImprovedLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedLogistics:AdvancedLogistics"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -27727,13 +27622,11 @@
     </attachment>
     <attachment name="triggerAttachmentbritishaTDB" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishAdvancedDestroyers:conditionAttachmentbritishAdvancedGunLaying"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="DestroyerBombardement:DestroyerBombardement"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentbritishaTAC" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishImprovedCarriers:conditionAttachmentbritishAdvancedHulls"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedCarriers:AdvancedCarriers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -27759,7 +27652,6 @@
     </attachment>
     <attachment name="triggerAttachmentbritishaTAF" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishImprovedTacticalBombers:conditionAttachmentbritishIncreasedFighterRange"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedFighters:AdvancedFighters"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -27770,7 +27662,6 @@
     </attachment>
     <attachment name="triggerAttachmentbritishaTATB" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentbritishIncreasedTacticalBomberRange:conditionAttachmentbritishImprovedTacticalBombers"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedTacticalBombers:AdvancedTacticalBombers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -28538,13 +28429,11 @@
     </attachment>
     <attachment name="triggerAttachmentbritishProd1" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishProduction:conditionAttachmentLondonnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="London:Material" count="1"/>
       <option name="when" value="after:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentbritishProd2" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishProduction:conditionAttachmentLondonlost:conditionAttachmentScotlandnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Scotland:Material" count="1"/>
       <option name="when" value="after:britainNonCombatMove"/>
     </attachment>
@@ -28565,13 +28454,11 @@
     </attachment>
     <attachment name="triggerAttachmentbritishAP2" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishAdvancedProduction:conditionAttachmentLondonnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="London:Material" count="1"/>
       <option name="when" value="after:britainNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentbritishAP3" attachTo="Britain" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentbritishAdvancedProduction:conditionAttachmentLondonlost:conditionAttachmentScotlandnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Scotland:Material" count="1"/>
       <option name="when" value="after:britainNonCombatMove"/>
     </attachment>
@@ -28773,7 +28660,6 @@
     </attachment>
     <attachment name="triggerAttachmentchineseaTIDS" attachTo="China" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentchineseProduction:conditionAttachmentchineseLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedDefensiveStructures:ImprovedDefensiveStructures"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -28803,13 +28689,11 @@
     </attachment>
     <attachment name="triggerAttachmentchineseProd1" attachTo="China" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentchineseProduction:conditionAttachmentChungkingnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Chungking:Material" count="1"/>
       <option name="when" value="after:chinaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentchineseProd2" attachTo="China" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentchineseProduction:conditionAttachmentChungkinglost:conditionAttachmentSingkiangnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Singkiang:Material" count="1"/>
       <option name="when" value="after:chinaNonCombatMove"/>
     </attachment>
@@ -28873,13 +28757,11 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTIM" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseImprovedTanks:conditionAttachmentjapaneseSpecialWarfare"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedMechanization:ImprovedMechanization"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTSPA" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseImprovedTanks:conditionAttachmentjapaneseImprovedArtillery"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="SelfPropelledArtillery:SelfPropelledArtillery"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -28915,13 +28797,11 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTIDS" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseProduction:conditionAttachmentjapaneseLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedDefensiveStructures:ImprovedDefensiveStructures"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTAP" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseImprovedDefensiveStructures:conditionAttachmentjapaneseImprovedProduction"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedProduction:AdvancedProduction"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -28937,7 +28817,6 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTAL" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseImprovedDefensiveStructures:conditionAttachmentjapaneseImprovedLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedLogistics:AdvancedLogistics"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -28973,13 +28852,11 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTDB" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseAdvancedDestroyers:conditionAttachmentjapaneseAdvancedGunLaying"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="DestroyerBombardement:DestroyerBombardement"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTAC" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseImprovedCarriers:conditionAttachmentjapaneseAdvancedHulls"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedCarriers:AdvancedCarriers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -29005,7 +28882,6 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTAF" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseImprovedTacticalBombers:conditionAttachmentjapaneseIncreasedFighterRange"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedFighters:AdvancedFighters"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -29016,7 +28892,6 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseaTATB" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentjapaneseIncreasedTacticalBomberRange:conditionAttachmentjapaneseImprovedTacticalBombers"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedTacticalBombers:AdvancedTacticalBombers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -29749,7 +29624,6 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseProd" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseProduction:conditionAttachmentTokyonotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Tokyo:Material" count="1"/>
       <option name="when" value="after:japanNonCombatMove"/>
     </attachment>
@@ -29770,7 +29644,6 @@
     </attachment>
     <attachment name="triggerAttachmentjapaneseAP2" attachTo="Japan" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentjapaneseAdvancedProduction:conditionAttachmentTokyonotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Tokyo:Material" count="1"/>
       <option name="when" value="after:japanNonCombatMove"/>
     </attachment>
@@ -29937,13 +29810,11 @@
     </attachment>
     <attachment name="triggerAttachmentrussianaTIM" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianImprovedTanks:conditionAttachmentrussianSpecialWarfare"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedMechanization:ImprovedMechanization"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianaTSPA" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianImprovedTanks:conditionAttachmentrussianImprovedArtillery"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="SelfPropelledArtillery:SelfPropelledArtillery"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -29979,13 +29850,11 @@
     </attachment>
     <attachment name="triggerAttachmentrussianaTIDS" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianProduction:conditionAttachmentrussianLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedDefensiveStructures:ImprovedDefensiveStructures"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianaTAP" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianImprovedDefensiveStructures:conditionAttachmentrussianImprovedProduction"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedProduction:AdvancedProduction"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -30001,7 +29870,6 @@
     </attachment>
     <attachment name="triggerAttachmentrussianaTAL" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianImprovedDefensiveStructures:conditionAttachmentrussianImprovedLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedLogistics:AdvancedLogistics"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -30037,13 +29905,11 @@
     </attachment>
     <attachment name="triggerAttachmentrussianaTDB" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianAdvancedDestroyers:conditionAttachmentrussianAdvancedGunLaying"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="DestroyerBombardement:DestroyerBombardement"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentrussianaTAC" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianImprovedCarriers:conditionAttachmentrussianAdvancedHulls"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedCarriers:AdvancedCarriers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -30069,7 +29935,6 @@
     </attachment>
     <attachment name="triggerAttachmentrussianaTAF" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianImprovedTacticalBombers:conditionAttachmentrussianIncreasedFighterRange"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedFighters:AdvancedFighters"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -30080,7 +29945,6 @@
     </attachment>
     <attachment name="triggerAttachmentrussianaTATB" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentrussianIncreasedTacticalBomberRange:conditionAttachmentrussianImprovedTacticalBombers"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedTacticalBombers:AdvancedTacticalBombers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -30833,13 +30697,11 @@
     </attachment>
     <attachment name="triggerAttachmentrussianProd1" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianProduction:conditionAttachmentMoscownotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Moscow:Material" count="1"/>
       <option name="when" value="after:russiaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentrussianProd2" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianProduction:conditionAttachmentMoscowlost:conditionAttachmentUralsnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Urals:Material" count="1"/>
       <option name="when" value="after:russiaNonCombatMove"/>
     </attachment>
@@ -30855,13 +30717,11 @@
     </attachment>
     <attachment name="triggerAttachmentrussianAP2" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianAdvancedProduction:conditionAttachmentMoscownotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Moscow:Material" count="1"/>
       <option name="when" value="after:russiaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentrussianAP3" attachTo="Russia" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentrussianAdvancedProduction:conditionAttachmentMoscowlost:conditionAttachmentUralsnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Urals:Material" count="1"/>
       <option name="when" value="after:russiaNonCombatMove"/>
     </attachment>
@@ -31008,13 +30868,11 @@
     </attachment>
     <attachment name="triggerAttachmentamericanaTIM" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanImprovedTanks:conditionAttachmentamericanSpecialWarfare"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedMechanization:ImprovedMechanization"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanaTSPA" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanImprovedTanks:conditionAttachmentamericanImprovedArtillery"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="SelfPropelledArtillery:SelfPropelledArtillery"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -31050,13 +30908,11 @@
     </attachment>
     <attachment name="triggerAttachmentamericanaTIDS" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanProduction:conditionAttachmentamericanLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedDefensiveStructures:ImprovedDefensiveStructures"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanaTAP" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanImprovedDefensiveStructures:conditionAttachmentamericanImprovedProduction"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedProduction:AdvancedProduction"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -31072,7 +30928,6 @@
     </attachment>
     <attachment name="triggerAttachmentamericanaTAL" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanImprovedDefensiveStructures:conditionAttachmentamericanImprovedLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedLogistics:AdvancedLogistics"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -31108,13 +30963,11 @@
     </attachment>
     <attachment name="triggerAttachmentamericanaTDB" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanAdvancedDestroyers:conditionAttachmentamericanAdvancedGunLaying"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="DestroyerBombardement:DestroyerBombardement"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentamericanaTAC" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanImprovedCarriers:conditionAttachmentamericanAdvancedHulls"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedCarriers:AdvancedCarriers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -31140,7 +30993,6 @@
     </attachment>
     <attachment name="triggerAttachmentamericanaTAF" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanImprovedTacticalBombers:conditionAttachmentamericanIncreasedFighterRange"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedFighters:AdvancedFighters"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -31151,7 +31003,6 @@
     </attachment>
     <attachment name="triggerAttachmentamericanaTATB" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentamericanIncreasedTacticalBomberRange:conditionAttachmentamericanImprovedTacticalBombers"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedTacticalBombers:AdvancedTacticalBombers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -31904,13 +31755,11 @@
     </attachment>
     <attachment name="triggerAttachmentamericanProd1" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanProduction:conditionAttachmentWashingtonnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Washington:Material" count="1"/>
       <option name="when" value="after:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentamericanProd2" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanProduction:conditionAttachmentWashingtonlost:conditionAttachmentChicagonotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Chicago:Material" count="1"/>
       <option name="when" value="after:usaNonCombatMove"/>
     </attachment>
@@ -31926,13 +31775,11 @@
     </attachment>
     <attachment name="triggerAttachmentamericanAP2" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanAdvancedProduction:conditionAttachmentWashingtonnotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Washington:Material" count="1"/>
       <option name="when" value="after:usaNonCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentamericanAP3" attachTo="Usa" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentamericanAdvancedProduction:conditionAttachmentWashingtonlost:conditionAttachmentChicagonotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Chicago:Material" count="1"/>
       <option name="when" value="after:usaNonCombatMove"/>
     </attachment>
@@ -32079,13 +31926,11 @@
     </attachment>
     <attachment name="triggerAttachmentitalianaTIM" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianImprovedTanks:conditionAttachmentitalianSpecialWarfare"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedMechanization:ImprovedMechanization"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianaTSPA" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianImprovedTanks:conditionAttachmentitalianImprovedArtillery"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="SelfPropelledArtillery:SelfPropelledArtillery"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -32121,13 +31966,11 @@
     </attachment>
     <attachment name="triggerAttachmentitalianaTIDS" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianProduction:conditionAttachmentitalianLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="ImprovedDefensiveStructures:ImprovedDefensiveStructures"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianaTAP" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianImprovedDefensiveStructures:conditionAttachmentitalianImprovedProduction"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedProduction:AdvancedProduction"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -32143,7 +31986,6 @@
     </attachment>
     <attachment name="triggerAttachmentitalianaTAL" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianImprovedDefensiveStructures:conditionAttachmentitalianImprovedLogistics"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedLogistics:AdvancedLogistics"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -32179,13 +32021,11 @@
     </attachment>
     <attachment name="triggerAttachmentitalianaTDB" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianAdvancedDestroyers:conditionAttachmentitalianAdvancedGunLaying"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="DestroyerBombardement:DestroyerBombardement"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentitalianaTAC" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianImprovedCarriers:conditionAttachmentitalianAdvancedHulls"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedCarriers:AdvancedCarriers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -32211,7 +32051,6 @@
     </attachment>
     <attachment name="triggerAttachmentitalianaTAF" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianImprovedTacticalBombers:conditionAttachmentitalianIncreasedFighterRange"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedFighters:AdvancedFighters"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -32222,7 +32061,6 @@
     </attachment>
     <attachment name="triggerAttachmentitalianaTATB" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentitalianIncreasedTacticalBomberRange:conditionAttachmentitalianImprovedTacticalBombers"/>
-      <option name="conditionType" value="AND"/>
       <option name="availableTech" value="AdvancedTacticalBombers:AdvancedTacticalBombers"/>
       <option name="uses" value="1"/>
     </attachment>
@@ -32945,7 +32783,6 @@
     </attachment>
     <attachment name="triggerAttachmentitalianProd" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianProduction:conditionAttachmentRomenotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Rome:Material" count="1"/>
       <option name="when" value="after:italyNonCombatMove"/>
     </attachment>
@@ -32961,7 +32798,6 @@
     </attachment>
     <attachment name="triggerAttachmentitalianAP2" attachTo="Italy" javaClass="TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentitalianAdvancedProduction:conditionAttachmentRomenotlost"/>
-      <option name="conditionType" value="AND"/>
       <option name="placement" value="Rome:Material" count="1"/>
       <option name="when" value="after:italyNonCombatMove"/>
     </attachment>
@@ -33231,7 +33067,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSpain" attachTo="Germany" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSpainNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Spain:Allied"/>
       <option name="relationshipChange" value="Italy:Spain:Allied"/>
       <option name="relationshipChange" value="Japan:Spain:Allied"/>
@@ -33258,7 +33093,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSpain" attachTo="Japan" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSpainNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Spain:Allied"/>
       <option name="relationshipChange" value="Italy:Spain:Allied"/>
       <option name="relationshipChange" value="Japan:Spain:Allied"/>
@@ -33285,7 +33119,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSpain" attachTo="Italy" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSpainNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Spain:Allied"/>
       <option name="relationshipChange" value="Italy:Spain:Allied"/>
       <option name="relationshipChange" value="Japan:Spain:Allied"/>
@@ -33312,7 +33145,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSpain" attachTo="Russia" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSpainNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Spain:War"/>
       <option name="relationshipChange" value="Italy:Spain:War"/>
       <option name="relationshipChange" value="Japan:Spain:War"/>
@@ -33339,7 +33171,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSpain" attachTo="Britain" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSpainNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Spain:War"/>
       <option name="relationshipChange" value="Italy:Spain:War"/>
       <option name="relationshipChange" value="Japan:Spain:War"/>
@@ -33366,7 +33197,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSpain" attachTo="Usa" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSpainNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Spain:War"/>
       <option name="relationshipChange" value="Italy:Spain:War"/>
       <option name="relationshipChange" value="Japan:Spain:War"/>
@@ -33393,7 +33223,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSweden" attachTo="Germany" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSwedenNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Sweden:Allied"/>
       <option name="relationshipChange" value="Italy:Sweden:Allied"/>
       <option name="relationshipChange" value="Japan:Sweden:Allied"/>
@@ -33420,7 +33249,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSweden" attachTo="Japan" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSwedenNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Sweden:Allied"/>
       <option name="relationshipChange" value="Italy:Sweden:Allied"/>
       <option name="relationshipChange" value="Japan:Sweden:Allied"/>
@@ -33447,7 +33275,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithSweden" attachTo="Italy" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSwedenNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Sweden:Allied"/>
       <option name="relationshipChange" value="Italy:Sweden:Allied"/>
       <option name="relationshipChange" value="Japan:Sweden:Allied"/>
@@ -33474,7 +33301,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSweden" attachTo="Russia" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSwedenNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Sweden:War"/>
       <option name="relationshipChange" value="Italy:Sweden:War"/>
       <option name="relationshipChange" value="Japan:Sweden:War"/>
@@ -33501,7 +33327,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSweden" attachTo="Britain" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSwedenNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Sweden:War"/>
       <option name="relationshipChange" value="Italy:Sweden:War"/>
       <option name="relationshipChange" value="Japan:Sweden:War"/>
@@ -33528,7 +33353,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithSweden" attachTo="Usa" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisSwedenNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Sweden:War"/>
       <option name="relationshipChange" value="Italy:Sweden:War"/>
       <option name="relationshipChange" value="Japan:Sweden:War"/>
@@ -33555,7 +33379,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithTurkey" attachTo="Germany" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisTurkeyNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Turkey:Allied"/>
       <option name="relationshipChange" value="Italy:Turkey:Allied"/>
       <option name="relationshipChange" value="Japan:Turkey:Allied"/>
@@ -33582,7 +33405,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithTurkey" attachTo="Japan" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisTurkeyNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Turkey:Allied"/>
       <option name="relationshipChange" value="Italy:Turkey:Allied"/>
       <option name="relationshipChange" value="Japan:Turkey:Allied"/>
@@ -33609,7 +33431,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithTurkey" attachTo="Italy" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisTurkeyNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Turkey:Allied"/>
       <option name="relationshipChange" value="Italy:Turkey:Allied"/>
       <option name="relationshipChange" value="Japan:Turkey:Allied"/>
@@ -33636,7 +33457,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithTurkey" attachTo="Russia" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisTurkeyNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Turkey:War"/>
       <option name="relationshipChange" value="Italy:Turkey:War"/>
       <option name="relationshipChange" value="Japan:Turkey:War"/>
@@ -33663,7 +33483,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithTurkey" attachTo="Britain" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisTurkeyNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Turkey:War"/>
       <option name="relationshipChange" value="Italy:Turkey:War"/>
       <option name="relationshipChange" value="Japan:Turkey:War"/>
@@ -33690,7 +33509,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithTurkey" attachTo="Usa" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisTurkeyNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Turkey:War"/>
       <option name="relationshipChange" value="Italy:Turkey:War"/>
       <option name="relationshipChange" value="Japan:Turkey:War"/>
@@ -33717,7 +33535,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithBrazil" attachTo="Germany" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisBrazilNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Brazil:Allied"/>
       <option name="relationshipChange" value="Italy:Brazil:Allied"/>
       <option name="relationshipChange" value="Japan:Brazil:Allied"/>
@@ -33744,7 +33561,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithBrazil" attachTo="Japan" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisBrazilNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Brazil:Allied"/>
       <option name="relationshipChange" value="Italy:Brazil:Allied"/>
       <option name="relationshipChange" value="Japan:Brazil:Allied"/>
@@ -33771,7 +33587,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAxisProposeAlliancewithBrazil" attachTo="Italy" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisBrazilNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Brazil:Allied"/>
       <option name="relationshipChange" value="Italy:Brazil:Allied"/>
       <option name="relationshipChange" value="Japan:Brazil:Allied"/>
@@ -33798,7 +33613,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithBrazil" attachTo="Russia" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisBrazilNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Brazil:War"/>
       <option name="relationshipChange" value="Italy:Brazil:War"/>
       <option name="relationshipChange" value="Japan:Brazil:War"/>
@@ -33825,7 +33639,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithBrazil" attachTo="Britain" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisBrazilNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Brazil:War"/>
       <option name="relationshipChange" value="Italy:Brazil:War"/>
       <option name="relationshipChange" value="Japan:Brazil:War"/>
@@ -33852,7 +33665,6 @@
     </attachment>
     <attachment name="politicalActionAttachmentAlliesProposeAlliancewithBrazil" attachTo="Usa" javaClass="PoliticalActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAxisBrazilNeutral:conditionAttachmentDecWarOnly"/>
-      <option name="conditionType" value="AND"/>
       <option name="relationshipChange" value="Germany:Brazil:War"/>
       <option name="relationshipChange" value="Italy:Brazil:War"/>
       <option name="relationshipChange" value="Japan:Brazil:War"/>
