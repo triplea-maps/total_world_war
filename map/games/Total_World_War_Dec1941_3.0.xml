@@ -28794,11 +28794,18 @@
       <option name="support" value="supportAttachmentArtilleryImpchinese"/>
       <option name="uses" value="1"/>
     </attachment>
-    <attachment name="triggerAttachmenchineseImpAA" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+    <attachment name="triggerAttachmentchineseImpAA" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentchineseImprovedAntiAircraft"/>
       <option name="unitType" value="chineseAntiAirGun"/>
       <option name="unitProperty" value="attackAA" count="2"/>
       <option name="unitProperty" value="defense" count="2"/>
+      <option name="uses" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachmentchineseImpAT" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentchineseImprovedAntiTank"/>
+      <option name="unitType" value="chineseAntiTankGun"/>
+      <option name="unitProperty" value="defense" count="2"/>
+      <option name="unitProperty" value="attackAA" count="3"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentchineseProd1" attachTo="China" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
