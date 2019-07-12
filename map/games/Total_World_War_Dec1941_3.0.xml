@@ -26780,7 +26780,7 @@
         <attachment name="triggerAttachmentgermanAdvMech" attachTo="Germany" javaClass="TriggerAttachment" type="player">
             <option name="trigger" value="conditionAttachmentgermanAdvancedMechanization"/>
             <option name="unitType" value="germanMech.Infantry"/>
-            <option name="unitProperty" value="attack" count="5"/>
+            <option name="unitProperty" value="attack" count="4"/>
             <option name="unitProperty" value="receivesAbilityWhenWith" count="-reset-"/>
             <option name="unitProperty" value="canBlitz" count="true"/>
             <option name="uses" value="1"/>
@@ -27848,7 +27848,7 @@
         <attachment name="triggerAttachmentbritishAdvMech" attachTo="Britain" javaClass="TriggerAttachment" type="player">
             <option name="trigger" value="conditionAttachmentbritishAdvancedMechanization"/>
             <option name="unitType" value="britishMech.Infantry"/>
-            <option name="unitProperty" value="attack" count="5"/>
+            <option name="unitProperty" value="attack" count="4"/>
             <option name="unitProperty" value="receivesAbilityWhenWith" count="-reset-"/>
             <option name="unitProperty" value="canBlitz" count="true"/>
             <option name="uses" value="1"/>
@@ -29073,7 +29073,7 @@
         <attachment name="triggerAttachmentjapaneseAdvMech" attachTo="Japan" javaClass="TriggerAttachment" type="player">
             <option name="trigger" value="conditionAttachmentjapaneseAdvancedMechanization"/>
             <option name="unitType" value="japaneseMech.Infantry"/>
-            <option name="unitProperty" value="attack" count="5"/>
+            <option name="unitProperty" value="attack" count="4"/>
             <option name="unitProperty" value="receivesAbilityWhenWith" count="-reset-"/>
             <option name="unitProperty" value="canBlitz" count="true"/>
             <option name="uses" value="1"/>
@@ -30116,7 +30116,7 @@
         <attachment name="triggerAttachmentrussianAdvMech" attachTo="Russia" javaClass="TriggerAttachment" type="player">
             <option name="trigger" value="conditionAttachmentrussianAdvancedMechanization"/>
             <option name="unitType" value="russianMech.Infantry"/>
-            <option name="unitProperty" value="attack" count="5"/>
+            <option name="unitProperty" value="attack" count="4"/>
             <option name="unitProperty" value="receivesAbilityWhenWith" count="-reset-"/>
             <option name="unitProperty" value="canBlitz" count="true"/>
             <option name="uses" value="1"/>
@@ -31174,7 +31174,7 @@
         <attachment name="triggerAttachmentamericanAdvMech" attachTo="Usa" javaClass="TriggerAttachment" type="player">
             <option name="trigger" value="conditionAttachmentamericanAdvancedMechanization"/>
             <option name="unitType" value="americanMech.Infantry"/>
-            <option name="unitProperty" value="attack" count="5"/>
+            <option name="unitProperty" value="attack" count="4"/>
             <option name="unitProperty" value="receivesAbilityWhenWith" count="-reset-"/>
             <option name="unitProperty" value="canBlitz" count="true"/>
             <option name="uses" value="1"/>
@@ -32232,7 +32232,7 @@
         <attachment name="triggerAttachmentitalianAdvMech" attachTo="Italy" javaClass="TriggerAttachment" type="player">
             <option name="trigger" value="conditionAttachmentitalianAdvancedMechanization"/>
             <option name="unitType" value="italianMech.Infantry"/>
-            <option name="unitProperty" value="attack" count="5"/>
+            <option name="unitProperty" value="attack" count="4"/>
             <option name="unitProperty" value="receivesAbilityWhenWith" count="-reset-"/>
             <option name="unitProperty" value="canBlitz" count="true"/>
             <option name="uses" value="1"/>
