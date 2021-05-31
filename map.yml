@@ -1,0 +1,4 @@
+map_name: total_world_war
+games:
+- {game_name: 'Total World War: December 1941 2.8', file_name: Total_World_War_Dec1941_2.8.xml}
+- {game_name: 'Total World War: December 1941 3.0', file_name: Total_World_War_Dec1941_3.0.xml}
